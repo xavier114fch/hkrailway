@@ -43,35 +43,52 @@
 			};
 
 			if (feature.properties.company == '港鐵') {
-				if (feature.properties.type == '車站') {
-					switch (feature.properties.line) {
-						case '觀塘綫': options.fillColor = "#33b652"; break;
-						case '荃灣綫': options.fillColor = "#ee2722"; break;
-						case '港島綫': options.fillColor = "#2d7bc8"; break;
-						case '將軍澳綫': options.fillColor = "#915fb6"; break;
-						case '東涌綫': options.fillColor = "#f68b11"; break;
-						case '機場快綫': options.fillColor = "#007582"; break;
-						case '迪士尼綫': options.fillColor = "#de6dbd"; break;
-						case '南北綫': options.fillColor = "#6ac2ee"; break;
-						case '東西綫': options.fillColor = "#a73e10"; break;
-						case '南港島綫（東段）': options.fillColor = "#bac429"; break;
-						case '輕鐵': options.fillColor = "#dab006"; break;
-						case '昂坪360': options.fillColor = "#94989a"; break;
-						case '北環綫': options.fillColor = "#000000"; break;
-						case '南港島綫（西段）': options.fillColor = "#9182c2"; break;
-						case '東九龍綫': options.fillColor = "#aaaa7f"; break;
-					}
+				switch (feature.properties.line) {
+					case '觀塘綫': options.fillColor = "#33b652"; break;
+					case '荃灣綫': options.fillColor = "#ee2722"; break;
+					case '港島綫': options.fillColor = "#2d7bc8"; break;
+					case '將軍澳綫': options.fillColor = "#915fb6"; break;
+					case '東涌綫': options.fillColor = "#f68b11"; break;
+					case '機場快綫': options.fillColor = "#007582"; break;
+					case '迪士尼綫': options.fillColor = "#de6dbd"; break;
+					case '南北綫': options.fillColor = "#6ac2ee"; break;
+					case '東西綫': options.fillColor = "#a73e10"; break;
+					case '南港島綫（東段）': options.fillColor = "#bac429"; break;
+					case '輕鐵': options.fillColor = "#dab006"; break;
+					case '昂坪360': options.fillColor = "#94989a"; break;
+					case '北環綫': options.fillColor = "#000000"; break;
+					case '南港島綫（西段）': options.fillColor = "#9182c2"; break;
+					case '東九龍綫': options.fillColor = "#aaaa7f"; break;
+				}
+
+				if (feature.properties.type == '車廠') {
+					options.color = "#888";
+					options.fillColor = "#fff";
+					options.radius = 7;
+					options.weight = 2;
 				}
 
 				if (feature.properties.line == '輕鐵' || feature.properties.line == '昂坪360') {
 					options.radius = 4;
 					options.weight = 0.5;
+					if (feature.properties.type == '車廠' || feature.properties.type == '轉向站' || feature.properties.type == '緊急月台') {
+						options.color = "#888";
+						options.fillColor = "#fff";
+						options.radius = 3.5;
+						options.weight = 1;
+					}
 				}
 			}
 
 			if (feature.properties.company == '香港電車' || feature.properties.company == '山頂纜車' || feature.properties.company == '海洋公園' || feature.properties.company == '香港迪士尼樂園' || feature.properties.company == '香港國際機場旅客捷運系統' || feature.properties.company == '啟德環保連接系統' || feature.properties.company == '西九文化區EFTS') {
 				options.radius = 4;
 				options.weight = 0.5;
+				if (feature.properties.type == '車廠') {
+					options.color = "#888";
+					options.fillColor = "#fff";
+					options.radius = 3.5;
+					options.weight = 1;
+				}
 			}
 
 			if (feature.properties.status == '擬議中') {
