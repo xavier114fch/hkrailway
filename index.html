@@ -23,7 +23,7 @@
 		var map = L.map('map').setView([22.359, 114.161], 11);
 		L.tileLayer('http://{s}.tiles.mapbox.com/v3/xavier114fch.k215b0eh/{z}/{x}/{y}.png', {
 			attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-			maxZoom: 18
+			maxZoom: 15
 		}).addTo(map);
 
 		L.geoJson(railwayData, {
@@ -33,16 +33,16 @@
 		}).addTo(map);
 
 		function pointToLayer(feature, latlng) {
-			if (feature.properties.company == '港鐵') {
-				var options = {
+			var options = {
 					radius: 8,
 					fillColor: "",
 					color: "#000",
 					weight: 1,
 					opacity: 1,
 					fillOpacity: 0.8
-				};
+			};
 
+			if (feature.properties.company == '港鐵') {
 				if (feature.properties.type == '車站') {
 					switch (feature.properties.line) {
 						case '觀塘綫': options.fillColor = "#33b652"; break;
@@ -57,6 +57,9 @@
 						case '南港島綫（東段）': options.fillColor = "#bac429"; break;
 						case '輕鐵': options.fillColor = "#dab006"; break;
 						case '昂坪360': options.fillColor = "#94989a"; break;
+						case '北環綫': options.fillColor = "#000000"; break;
+						case '南港島綫（西段）': options.fillColor = "#9182c2"; break;
+						case '東九龍綫': options.fillColor = "#aaaa7f"; break;
 					}
 				}
 
@@ -64,6 +67,16 @@
 					options.radius = 4;
 					options.weight = 0.5;
 				}
+
+				if (feature.properties.status == '擬議中') {
+					options.dashArray = "2.5, 2.5";
+					options.fillOpacity = 0.5;
+				}
+			}
+
+			if (feature.properties.company == '香港電車' || feature.properties.company == '山頂纜車' || feature.properties.company == '海洋公園' || feature.properties.company == '香港迪士尼樂園') {
+				options.radius = 4;
+				options.weight = 0.5;
 			}
 
 			return L.circleMarker(latlng, options);
@@ -80,4 +93,4 @@
 		}
 	</script>
 </body>
-</html>
+</html>s
