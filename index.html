@@ -1,55 +1,83 @@
 <!doctype html>
 <html>
-	<head>
-		<title>Hello World</title>
-		<meta charset="utf-8">
-		<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
-		<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
-		<script src="data.json"></script>        
-		<style type="text/css">
-			body {
-				margin: 0;
-				padding: 0;
-			}
-			#map {
-				height: 100vh;
-				width: 100vw;
-			}
-		</style>
-	</head>
-	<body>
-		<div id="map"></div>
-		<script type="text/javascript">
-			var map = L.map('map').setView([22.359, 114.161], 11);
-			L.tileLayer('http://{s}.tiles.mapbox.com/v3/xavier114fch.k215b0eh/{z}/{x}/{y}.png', {
-    			attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-    			maxZoom: 18
-			}).addTo(map);
-			
-			L.geoJson(railwayData, {
-				onEachFeature: showName,
-				pointToLayer: pointToLayer
-			}).addTo(map);
-			
-			function pointToLayer(feature, latlng) {
+<head>
+	<title>Hello World</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+	<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+	<script src="data.json"></script>        
+	<style type="text/css">
+		body {
+			margin: 0;
+			padding: 0;
+		}
+		#map {
+			height: 100vh;
+			width: 100vw;
+		}
+	</style>
+</head>
+<body>
+	<div id="map"></div>
+	<script type="text/javascript">
+		var map = L.map('map').setView([22.359, 114.161], 11);
+		L.tileLayer('http://{s}.tiles.mapbox.com/v3/xavier114fch.k215b0eh/{z}/{x}/{y}.png', {
+			attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+			maxZoom: 18
+		}).addTo(map);
+
+		L.geoJson(railwayData, {
+			onEachFeature: onEachFeature,
+			pointToLayer: pointToLayer,
+			filter: filter
+		}).addTo(map);
+
+		function pointToLayer(feature, latlng) {
+			if (feature.properties.company == '港鐵') {
 				var options = {
 					radius: 8,
-    				fillColor: "",
-    				color: "#000",
-    				weight: 1,
-    				opacity: 1,
-    				fillOpacity: 0.8
+					fillColor: "",
+					color: "#000",
+					weight: 1,
+					opacity: 1,
+					fillOpacity: 0.8
 				};
-				switch (feature.properties.line) {
-					case '觀塘綫': options.fillColor = "#33b652";
+
+				if (feature.properties.type == '車站') {
+					switch (feature.properties.line) {
+						case '觀塘綫': options.fillColor = "#33b652"; break;
+						case '荃灣綫': options.fillColor = "#ee2722"; break;
+						case '港島綫': options.fillColor = "#2d7bc8"; break;
+						case '將軍澳綫': options.fillColor = "#915fb6"; break;
+						case '東涌綫': options.fillColor = "#f68b11"; break;
+						case '機場快綫': options.fillColor = "#007582"; break;
+						case '迪士尼綫': options.fillColor = "#de6dbd"; break;
+						case '南北綫': options.fillColor = "#6ac2ee"; break;
+						case '東西綫': options.fillColor = "#a73e10"; break;
+						case '南港島綫（東段）': options.fillColor = "#bac429"; break;
+						case '輕鐵': options.fillColor = "#dab006"; break;
+						case '昂坪360': options.fillColor = "#94989a"; break;
+					}
 				}
-				return L.circleMarker(latlng, options);
+
+				if (feature.properties.line == '輕鐵' || feature.properties.line == '昂坪360') {
+					options.radius = 4;
+					options.weight = 0.5;
+				}
 			}
-			function showName(feature, layer) {
-    			if (feature.properties && feature.properties.name) {
-        			layer.bindPopup(feature.properties.name);
-    			}
+
+			return L.circleMarker(latlng, options);
+		}
+
+		function onEachFeature(feature, layer) {
+			if (feature.properties && feature.properties.name) {
+				layer.bindPopup(feature.properties.name, {closeButton: false});
 			}
-		</script>
-	</body>
+		}
+
+		function filter(feature, layer) {
+			return (feature.properties.company == '港鐵');
+		}
+	</script>
+</body>
 </html>

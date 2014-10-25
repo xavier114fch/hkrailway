@@ -1,5 +1,4 @@
-// JSON Document
-var railwayData = [{
+var railwayData = {
     "type": "FeatureCollection",
     "features": [
         {
@@ -14,8 +13,10 @@ var railwayData = [{
             },
             "properties": {
                 "name": "黃埔",
-				"type":	"港鐵",
-				"line": "觀塘綫"
+                "company": "港鐵",
+                "type": "車站",
+                "line": "觀塘綫",
+                "status": "運作中"
             }
         },
         {
@@ -30,8 +31,10 @@ var railwayData = [{
             },
             "properties": {
                 "name": "何文田",
-				"type":	"港鐵",
-				"line": "觀塘綫"
+                "company": "港鐵",
+                "type": "車站",
+                "line": "觀塘綫",
+                "status": "運作中"
             }
         },
         {
@@ -46,8 +49,10 @@ var railwayData = [{
             },
             "properties": {
                 "name": "油麻地",
-				"type":	"港鐵",
-				"line": "觀塘綫"
+                "company": "港鐵",
+                "type": "車站",
+                "line": "觀塘綫",
+                "status": "運作中"
             }
         },
         {
@@ -62,8 +67,10 @@ var railwayData = [{
             },
             "properties": {
                 "name": "旺角",
-				"type":	"港鐵",
-				"line": "觀塘綫"
+                "company": "港鐵",
+                "type": "車站",
+                "line": "觀塘綫",
+                "status": "運作中"
             }
         },
         {
@@ -78,8 +85,10 @@ var railwayData = [{
             },
             "properties": {
                 "name": "太子",
-				"type":	"港鐵",
-				"line": "觀塘綫"
+                "company": "港鐵",
+                "type": "車站",
+                "line": "觀塘綫",
+                "status": "運作中"
             }
         },
         {
@@ -94,8 +103,10 @@ var railwayData = [{
             },
             "properties": {
                 "name": "石硤尾",
-				"type":	"港鐵",
-				"line": "觀塘綫"
+                "company": "港鐵",
+                "type": "車站",
+                "line": "觀塘綫",
+                "status": "運作中"
             }
         },
         {
@@ -110,8 +121,10 @@ var railwayData = [{
             },
             "properties": {
                 "name": "九龍塘",
-				"type":	"港鐵",
-				"line": "觀塘綫"
+                "company": "港鐵",
+                "type": "車站",
+                "line": "觀塘綫",
+                "status": "運作中"
             }
         },
         {
@@ -126,8 +139,10 @@ var railwayData = [{
             },
             "properties": {
                 "name": "樂富",
-				"type":	"港鐵",
-				"line": "觀塘綫"
+                "company": "港鐵",
+                "type": "車站",
+                "line": "觀塘綫",
+                "status": "運作中"
             }
         },
         {
@@ -142,8 +157,10 @@ var railwayData = [{
             },
             "properties": {
                 "name": "黃大仙",
-				"type":	"港鐵",
-				"line": "觀塘綫"
+                "company": "港鐵",
+                "type": "車站",
+                "line": "觀塘綫",
+                "status": "運作中"
             }
         },
         {
@@ -158,8 +175,10 @@ var railwayData = [{
             },
             "properties": {
                 "name": "鑽石山",
-				"type":	"港鐵",
-				"line": "觀塘綫"
+                "company": "港鐵",
+                "type": "車站",
+                "line": "觀塘綫",
+                "status": "運作中"
             }
         },
         {
@@ -174,8 +193,10 @@ var railwayData = [{
             },
             "properties": {
                 "name": "彩虹",
-				"type":	"港鐵",
-				"line": "觀塘綫"
+                "company": "港鐵",
+                "type": "車站",
+                "line": "觀塘綫",
+                "status": "運作中"
             }
         },
         {
@@ -190,8 +211,10 @@ var railwayData = [{
             },
             "properties": {
                 "name": "九龍灣",
-				"type":	"港鐵",
-				"line": "觀塘綫"
+                "company": "港鐵",
+                "type": "車站",
+                "line": "觀塘綫",
+                "status": "運作中"
             }
         },
         {
@@ -206,8 +229,10 @@ var railwayData = [{
             },
             "properties": {
                 "name": "牛頭角",
-				"type":	"港鐵",
-				"line": "觀塘綫"
+                "company": "港鐵",
+                "type": "車站",
+                "line": "觀塘綫",
+                "status": "運作中"
             }
         },
         {
@@ -222,8 +247,10 @@ var railwayData = [{
             },
             "properties": {
                 "name": "觀塘",
-				"type":	"港鐵",
-				"line": "觀塘綫"
+                "company": "港鐵",
+                "type": "車站",
+                "line": "觀塘綫",
+                "status": "運作中"
             }
         },
         {
@@ -238,8 +265,10 @@ var railwayData = [{
             },
             "properties": {
                 "name": "藍田",
-				"type":	"港鐵",
-				"line": "觀塘綫"
+                "company": "港鐵",
+                "type": "車站",
+                "line": "觀塘綫",
+                "status": "運作中"
             }
         },
         {
@@ -254,8 +283,10 @@ var railwayData = [{
             },
             "properties": {
                 "name": "油塘",
-				"type":	"港鐵",
-				"line": "觀塘綫"
+                "company": "港鐵",
+                "type": "車站",
+                "line": "觀塘綫",
+                "status": "運作中"
             }
         },
         {
@@ -270,8 +301,10 @@ var railwayData = [{
             },
             "properties": {
                 "name": "調景嶺",
-				"type":	"港鐵",
-				"line": "觀塘綫"
+                "company": "港鐵",
+                "type": "車站",
+                "line": "觀塘綫",
+                "status": "運作中"
             }
         },
         {
@@ -285,7 +318,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "九龍灣車廠"
+                "name": "九龍灣車廠",
+                "company": "港鐵",
+                "type": "車廠",
+                "line": "觀塘綫",
+                "status": "運作中"
             }
         },
         {
@@ -299,7 +336,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "中環"
+                "name": "中環",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "荃灣綫",
+                "status": "運作中"
             }
         },
         {
@@ -313,7 +354,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "金鐘"
+                "name": "金鐘",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "荃灣綫",
+                "status": "運作中"
             }
         },
         {
@@ -327,7 +372,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "尖沙咀"
+                "name": "尖沙咀",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "荃灣綫",
+                "status": "運作中"
             }
         },
         {
@@ -341,7 +390,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "佐敦"
+                "name": "佐敦",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "荃灣綫",
+                "status": "運作中"
             }
         },
         {
@@ -355,7 +408,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "油麻地"
+                "name": "油麻地",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "荃灣綫",
+                "status": "運作中"
             }
         },
         {
@@ -369,7 +426,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "旺角"
+                "name": "旺角",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "荃灣綫",
+                "status": "運作中"
             }
         },
         {
@@ -383,7 +444,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "太子"
+                "name": "太子",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "荃灣綫",
+                "status": "運作中"
             }
         },
         {
@@ -397,7 +462,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "深水埗"
+                "name": "深水埗",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "荃灣綫",
+                "status": "運作中"
             }
         },
         {
@@ -411,7 +480,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "長沙灣"
+                "name": "長沙灣",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "荃灣綫",
+                "status": "運作中"
             }
         },
         {
@@ -425,7 +498,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "荔枝角"
+                "name": "荔枝角",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "荃灣綫",
+                "status": "運作中"
             }
         },
         {
@@ -439,7 +516,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "美孚"
+                "name": "美孚",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "荃灣綫",
+                "status": "運作中"
             }
         },
         {
@@ -453,7 +534,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "荔景"
+                "name": "荔景",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "荃灣綫",
+                "status": "運作中"
             }
         },
         {
@@ -467,7 +552,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "葵芳"
+                "name": "葵芳",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "荃灣綫",
+                "status": "運作中"
             }
         },
         {
@@ -481,7 +570,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "葵興"
+                "name": "葵興",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "荃灣綫",
+                "status": "運作中"
             }
         },
         {
@@ -495,7 +588,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "大窩口"
+                "name": "大窩口",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "荃灣綫",
+                "status": "運作中"
             }
         },
         {
@@ -509,7 +606,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "荃灣"
+                "name": "荃灣",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "荃灣綫",
+                "status": "運作中"
             }
         },
         {
@@ -523,7 +624,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "荃灣車廠"
+                "name": "荃灣車廠",
+                "company": "港鐵",
+                "type": "車廠",
+                "line": "荃灣綫",
+                "status": "運作中"
             }
         },
         {
@@ -537,7 +642,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "堅尼地城"
+                "name": "堅尼地城",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "港島綫",
+                "status": "運作中"
             }
         },
         {
@@ -551,7 +660,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "香港大學"
+                "name": "香港大學",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "港島綫",
+                "status": "運作中"
             }
         },
         {
@@ -565,7 +678,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "西營盤"
+                "name": "西營盤",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "港島綫",
+                "status": "運作中"
             }
         },
         {
@@ -579,7 +696,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "上環"
+                "name": "上環",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "港島綫",
+                "status": "運作中"
             }
         },
         {
@@ -593,7 +714,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "中環"
+                "name": "中環",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "港島綫",
+                "status": "運作中"
             }
         },
         {
@@ -607,7 +732,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "金鐘"
+                "name": "金鐘",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "港島綫",
+                "status": "運作中"
             }
         },
         {
@@ -621,7 +750,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "灣仔"
+                "name": "灣仔",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "港島綫",
+                "status": "運作中"
             }
         },
         {
@@ -635,7 +768,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "銅鑼灣"
+                "name": "銅鑼灣",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "港島綫",
+                "status": "運作中"
             }
         },
         {
@@ -649,7 +786,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "天后"
+                "name": "天后",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "港島綫",
+                "status": "運作中"
             }
         },
         {
@@ -663,7 +804,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "炮台山"
+                "name": "炮台山",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "港島綫",
+                "status": "運作中"
             }
         },
         {
@@ -677,7 +822,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "北角"
+                "name": "北角",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "港島綫",
+                "status": "運作中"
             }
         },
         {
@@ -691,7 +840,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "鰂魚涌"
+                "name": "鰂魚涌",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "港島綫",
+                "status": "運作中"
             }
         },
         {
@@ -705,7 +858,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "太古"
+                "name": "太古",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "港島綫",
+                "status": "運作中"
             }
         },
         {
@@ -719,7 +876,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "西灣河"
+                "name": "西灣河",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "港島綫",
+                "status": "運作中"
             }
         },
         {
@@ -733,7 +894,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "筲箕灣"
+                "name": "筲箕灣",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "港島綫",
+                "status": "運作中"
             }
         },
         {
@@ -747,7 +912,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "杏花邨"
+                "name": "杏花邨",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "港島綫",
+                "status": "運作中"
             }
         },
         {
@@ -761,7 +930,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "柴灣"
+                "name": "柴灣",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "港島綫",
+                "status": "運作中"
             }
         },
         {
@@ -775,7 +948,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "柴灣車廠"
+                "name": "柴灣車廠",
+                "company": "港鐵",
+                "type": "車廠",
+                "line": "港島綫",
+                "status": "運作中"
             }
         },
         {
@@ -789,7 +966,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "香港"
+                "name": "香港",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "東涌綫",
+                "status": "運作中"
             }
         },
         {
@@ -803,7 +984,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "九龍"
+                "name": "九龍",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "東涌綫",
+                "status": "運作中"
             }
         },
         {
@@ -817,7 +1002,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "奧運"
+                "name": "奧運",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "東涌綫",
+                "status": "運作中"
             }
         },
         {
@@ -831,7 +1020,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "南昌"
+                "name": "南昌",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "東涌綫",
+                "status": "運作中"
             }
         },
         {
@@ -845,7 +1038,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "荔景"
+                "name": "荔景",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "東涌綫",
+                "status": "運作中"
             }
         },
         {
@@ -859,7 +1056,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "青衣"
+                "name": "青衣",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "東涌綫",
+                "status": "運作中"
             }
         },
         {
@@ -873,7 +1074,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "欣澳"
+                "name": "欣澳",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "東涌綫",
+                "status": "運作中"
             }
         },
         {
@@ -887,7 +1092,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "東涌"
+                "name": "東涌",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "東涌綫",
+                "status": "運作中"
             }
         },
         {
@@ -901,7 +1110,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "小蠔灣車廠"
+                "name": "小蠔灣車廠",
+                "company": "港鐵",
+                "type": "車廠",
+                "line": "東涌綫",
+                "status": "運作中"
             }
         },
         {
@@ -915,7 +1128,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "香港"
+                "name": "香港",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "機場快綫",
+                "status": "運作中"
             }
         },
         {
@@ -929,7 +1146,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "九龍"
+                "name": "九龍",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "機場快綫",
+                "status": "運作中"
             }
         },
         {
@@ -943,7 +1164,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "青衣"
+                "name": "青衣",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "機場快綫",
+                "status": "運作中"
             }
         },
         {
@@ -957,7 +1182,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "機場"
+                "name": "機場",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "機場快綫",
+                "status": "運作中"
             }
         },
         {
@@ -971,7 +1200,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "博覽館"
+                "name": "博覽館",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "機場快綫",
+                "status": "運作中"
             }
         },
         {
@@ -981,12 +1214,15 @@ var railwayData = [{
                 "coordinates": [
                     113.9831207325777,
                     22.30810833701363,
-
                     0
                 ]
             },
             "properties": {
-                "name": "小蠔灣車廠"
+                "name": "小蠔灣車廠",
+                "company": "港鐵",
+                "type": "車廠",
+                "line": "機場快綫",
+                "status": "運作中"
             }
         },
         {
@@ -1000,7 +1236,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "北角"
+                "name": "北角",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "將軍澳綫",
+                "status": "運作中"
             }
         },
         {
@@ -1014,7 +1254,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "鰂魚涌"
+                "name": "鰂魚涌",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "將軍澳綫",
+                "status": "運作中"
             }
         },
         {
@@ -1028,7 +1272,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "油塘"
+                "name": "油塘",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "將軍澳綫",
+                "status": "運作中"
             }
         },
         {
@@ -1042,7 +1290,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "調景嶺"
+                "name": "調景嶺",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "將軍澳綫",
+                "status": "運作中"
             }
         },
         {
@@ -1056,7 +1308,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "將軍澳"
+                "name": "將軍澳",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "將軍澳綫",
+                "status": "運作中"
             }
         },
         {
@@ -1070,7 +1326,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "坑口"
+                "name": "坑口",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "將軍澳綫",
+                "status": "運作中"
             }
         },
         {
@@ -1084,7 +1344,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "寶琳"
+                "name": "寶琳",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "將軍澳綫",
+                "status": "運作中"
             }
         },
         {
@@ -1098,7 +1362,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "康城"
+                "name": "康城",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "將軍澳綫",
+                "status": "運作中"
             }
         },
         {
@@ -1112,7 +1380,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "將軍澳車廠"
+                "name": "將軍澳車廠",
+                "company": "港鐵",
+                "type": "車廠",
+                "line": "將軍澳綫",
+                "status": "運作中"
             }
         },
         {
@@ -1126,7 +1398,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "欣澳"
+                "name": "欣澳",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "迪士尼綫",
+                "status": "運作中"
             }
         },
         {
@@ -1140,7 +1416,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "迪士尼"
+                "name": "迪士尼",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "迪士尼綫",
+                "status": "運作中"
             }
         },
         {
@@ -1154,7 +1434,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "小蠔灣車廠"
+                "name": "小蠔灣車廠",
+                "company": "港鐵",
+                "type": "車廠",
+                "line": "迪士尼綫",
+                "status": "運作中"
             }
         },
         {
@@ -1168,7 +1452,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "烏溪沙"
+                "name": "烏溪沙",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "東西綫",
+                "status": "運作中"
             }
         },
         {
@@ -1182,7 +1470,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "馬鞍山"
+                "name": "馬鞍山",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "東西綫",
+                "status": "運作中"
             }
         },
         {
@@ -1196,7 +1488,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "恆安"
+                "name": "恆安",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "東西綫",
+                "status": "運作中"
             }
         },
         {
@@ -1210,7 +1506,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "大水坑"
+                "name": "大水坑",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "東西綫",
+                "status": "運作中"
             }
         },
         {
@@ -1224,7 +1524,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "石門"
+                "name": "石門",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "東西綫",
+                "status": "運作中"
             }
         },
         {
@@ -1238,7 +1542,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "第一城"
+                "name": "第一城",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "東西綫",
+                "status": "運作中"
             }
         },
         {
@@ -1252,7 +1560,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "沙田圍"
+                "name": "沙田圍",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "東西綫",
+                "status": "運作中"
             }
         },
         {
@@ -1266,7 +1578,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "車公廟"
+                "name": "車公廟",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "東西綫",
+                "status": "運作中"
             }
         },
         {
@@ -1280,7 +1596,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "大圍"
+                "name": "大圍",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "東西綫",
+                "status": "運作中"
             }
         },
         {
@@ -1294,7 +1614,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "顯徑"
+                "name": "顯徑",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "東西綫",
+                "status": "運作中"
             }
         },
         {
@@ -1308,7 +1632,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "鑽石山"
+                "name": "鑽石山",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "東西綫",
+                "status": "運作中"
             }
         },
         {
@@ -1322,7 +1650,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "啟德"
+                "name": "啟德",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "東西綫",
+                "status": "運作中"
             }
         },
         {
@@ -1336,7 +1668,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "土瓜灣"
+                "name": "土瓜灣",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "東西綫",
+                "status": "運作中"
             }
         },
         {
@@ -1350,7 +1686,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "馬頭圍"
+                "name": "馬頭圍",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "東西綫",
+                "status": "運作中"
             }
         },
         {
@@ -1364,7 +1704,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "何文田"
+                "name": "何文田",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "東西綫",
+                "status": "運作中"
             }
         },
         {
@@ -1378,7 +1722,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "紅磡"
+                "name": "紅磡",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "東西綫",
+                "status": "運作中"
             }
         },
         {
@@ -1392,7 +1740,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "尖東"
+                "name": "尖東",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "東西綫",
+                "status": "運作中"
             }
         },
         {
@@ -1406,7 +1758,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "柯士甸"
+                "name": "柯士甸",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "東西綫",
+                "status": "運作中"
             }
         },
         {
@@ -1420,7 +1776,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "南昌"
+                "name": "南昌",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "東西綫",
+                "status": "運作中"
             }
         },
         {
@@ -1434,7 +1794,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "美孚"
+                "name": "美孚",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "東西綫",
+                "status": "運作中"
             }
         },
         {
@@ -1448,7 +1812,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "荃灣西"
+                "name": "荃灣西",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "東西綫",
+                "status": "運作中"
             }
         },
         {
@@ -1462,7 +1830,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "錦上路"
+                "name": "錦上路",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "東西綫",
+                "status": "運作中"
             }
         },
         {
@@ -1476,7 +1848,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "元朗"
+                "name": "元朗",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "東西綫",
+                "status": "運作中"
             }
         },
         {
@@ -1490,7 +1866,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "朗屏"
+                "name": "朗屏",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "東西綫",
+                "status": "運作中"
             }
         },
         {
@@ -1504,7 +1884,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "天水圍"
+                "name": "天水圍",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "東西綫",
+                "status": "運作中"
             }
         },
         {
@@ -1518,7 +1902,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "兆康"
+                "name": "兆康",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "東西綫",
+                "status": "運作中"
             }
         },
         {
@@ -1532,7 +1920,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "屯門"
+                "name": "屯門",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "東西綫",
+                "status": "運作中"
             }
         },
         {
@@ -1546,7 +1938,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "大圍車廠"
+                "name": "大圍車廠",
+                "company": "港鐵",
+                "type": "車廠",
+                "line": "東西綫",
+                "status": "運作中"
             }
         },
         {
@@ -1560,7 +1956,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "紅勵列車停放處"
+                "name": "紅磡列車停放處",
+                "company": "港鐵",
+                "type": "車廠",
+                "line": "東西綫",
+                "status": "運作中"
             }
         },
         {
@@ -1574,7 +1974,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "八鄉車廠"
+                "name": "八鄉車廠",
+                "company": "港鐵",
+                "type": "車廠",
+                "line": "東西綫",
+                "status": "運作中"
             }
         },
         {
@@ -1588,7 +1992,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "金鐘"
+                "name": "金鐘",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "南北綫",
+                "status": "運作中"
             }
         },
         {
@@ -1602,7 +2010,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "會展"
+                "name": "會展",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "南北綫",
+                "status": "運作中"
             }
         },
         {
@@ -1616,7 +2028,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "紅磡"
+                "name": "紅磡",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "南北綫",
+                "status": "運作中"
             }
         },
         {
@@ -1630,7 +2046,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "旺角東"
+                "name": "旺角東",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "南北綫",
+                "status": "運作中"
             }
         },
         {
@@ -1644,7 +2064,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "九龍塘"
+                "name": "九龍塘",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "南北綫",
+                "status": "運作中"
             }
         },
         {
@@ -1658,7 +2082,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "大圍"
+                "name": "大圍",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "南北綫",
+                "status": "運作中"
             }
         },
         {
@@ -1672,7 +2100,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "沙田"
+                "name": "沙田",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "南北綫",
+                "status": "運作中"
             }
         },
         {
@@ -1686,7 +2118,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "火炭"
+                "name": "火炭",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "南北綫",
+                "status": "運作中"
             }
         },
         {
@@ -1700,7 +2136,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "馬場"
+                "name": "馬場",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "南北綫",
+                "status": "運作中"
             }
         },
         {
@@ -1714,7 +2154,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "大學"
+                "name": "大學",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "南北綫",
+                "status": "運作中"
             }
         },
         {
@@ -1728,7 +2172,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "大埔墟"
+                "name": "大埔墟",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "南北綫",
+                "status": "運作中"
             }
         },
         {
@@ -1742,7 +2190,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "太和"
+                "name": "太和",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "南北綫",
+                "status": "運作中"
             }
         },
         {
@@ -1756,7 +2208,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "粉嶺"
+                "name": "粉嶺",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "南北綫",
+                "status": "運作中"
             }
         },
         {
@@ -1770,7 +2226,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "上水"
+                "name": "上水",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "南北綫",
+                "status": "運作中"
             }
         },
         {
@@ -1784,7 +2244,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "羅湖"
+                "name": "羅湖",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "南北綫",
+                "status": "運作中"
             }
         },
         {
@@ -1798,7 +2262,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "落馬洲"
+                "name": "落馬洲",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "南北綫",
+                "status": "運作中"
             }
         },
         {
@@ -1812,7 +2280,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "何東樓車廠"
+                "name": "何東樓車廠",
+                "company": "港鐵",
+                "type": "車廠",
+                "line": "南北綫",
+                "status": "運作中"
             }
         },
         {
@@ -1826,7 +2298,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "紅磡列車停放處"
+                "name": "紅磡列車停放處",
+                "company": "港鐵",
+                "type": "車廠",
+                "line": "南北綫",
+                "status": "運作中"
             }
         },
         {
@@ -1840,7 +2316,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "金鐘"
+                "name": "金鐘",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "南港島綫（東段）",
+                "status": "運作中"
             }
         },
         {
@@ -1854,7 +2334,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "海洋公園"
+                "name": "海洋公園",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "南港島綫（東段）",
+                "status": "運作中"
             }
         },
         {
@@ -1868,7 +2352,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "黃竹坑"
+                "name": "黃竹坑",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "南港島綫（東段）",
+                "status": "運作中"
             }
         },
         {
@@ -1882,7 +2370,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "利東"
+                "name": "利東",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "南港島綫（東段）",
+                "status": "運作中"
             }
         },
         {
@@ -1896,7 +2388,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "海怡半島"
+                "name": "海怡半島",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "南港島綫（東段）",
+                "status": "運作中"
             }
         },
         {
@@ -1910,7 +2406,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "黃竹坑車廠"
+                "name": "黃竹坑車廠",
+                "company": "港鐵",
+                "type": "車廠",
+                "line": "南港島綫（東段）",
+                "status": "運作中"
             }
         },
         {
@@ -1924,7 +2424,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "龍門"
+                "name": "龍門",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -1938,7 +2442,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "輕鐵車廠"
+                "name": "輕鐵車廠",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -1952,7 +2460,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "蝴蝶"
+                "name": "蝴蝶",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -1966,7 +2478,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "美樂"
+                "name": "美樂",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -1980,7 +2496,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "屯門碼頭"
+                "name": "屯門碼頭",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -1994,7 +2514,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "兆禧"
+                "name": "兆禧",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2008,7 +2532,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "屯門泳池"
+                "name": "屯門泳池",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2022,7 +2550,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "豐景園"
+                "name": "豐景園",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2036,7 +2568,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "兆麟"
+                "name": "兆麟",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2050,7 +2586,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "三聖"
+                "name": "三聖",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2064,7 +2604,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "青山村"
+                "name": "青山村",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2078,7 +2622,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "青雲"
+                "name": "青雲",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2092,7 +2640,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "鳴琴"
+                "name": "鳴琴",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2106,7 +2658,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "石排"
+                "name": "石排",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2120,7 +2676,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "銀圍"
+                "name": "銀圍",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2134,7 +2694,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "大興（南）"
+                "name": "大興（南）",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2148,7 +2712,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "大興（北）"
+                "name": "大興（北）",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2162,7 +2730,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "澤豐"
+                "name": "澤豐",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2176,7 +2748,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "菜意橋"
+                "name": "菜意橋",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2190,7 +2766,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "河田"
+                "name": "河田",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2204,7 +2784,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "友愛"
+                "name": "友愛",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2218,7 +2802,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "安定"
+                "name": "安定",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2232,7 +2820,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "市中心"
+                "name": "市中心",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2246,7 +2838,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "建安"
+                "name": "建安",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2260,7 +2856,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "屯門"
+                "name": "屯門",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2274,7 +2874,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "山景（南）"
+                "name": "山景（南）",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2288,7 +2892,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "山景（北）"
+                "name": "山景（北）",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2302,7 +2910,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "杯渡"
+                "name": "杯渡",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2316,7 +2928,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "何福堂"
+                "name": "何福堂",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2330,7 +2946,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "新墟"
+                "name": "新墟",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2344,7 +2964,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "景峰"
+                "name": "景峰",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2358,7 +2982,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "麒麟"
+                "name": "麒麟",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2372,7 +3000,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "屯門醫院"
+                "name": "屯門醫院",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2386,7 +3018,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "兆康"
+                "name": "兆康",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2400,7 +3036,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "藍地"
+                "name": "藍地",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2414,7 +3054,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "泥圍"
+                "name": "泥圍",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2428,7 +3072,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "鍾屋村"
+                "name": "鍾屋村",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2442,7 +3090,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "青松"
+                "name": "青松",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2456,7 +3108,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "建生"
+                "name": "建生",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2470,7 +3126,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "田景"
+                "name": "田景",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2484,7 +3144,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "良景"
+                "name": "良景",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2498,7 +3162,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "新圍"
+                "name": "新圍",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2512,7 +3180,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "鳳地"
+                "name": "鳳地",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2526,7 +3198,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "洪水橋"
+                "name": "洪水橋",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2540,7 +3216,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "屏山"
+                "name": "屏山",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2554,7 +3234,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "塘坊村"
+                "name": "塘坊村",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2568,7 +3252,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "坑尾村"
+                "name": "坑尾村",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2582,7 +3270,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "天耀"
+                "name": "天耀",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2596,7 +3288,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "樂湖"
+                "name": "樂湖",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2610,7 +3306,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "天瑞"
+                "name": "天瑞",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2624,7 +3324,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "天榮"
+                "name": "天榮",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2638,7 +3342,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "翠湖"
+                "name": "翠湖",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2652,7 +3360,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "天水圍"
+                "name": "天水圍",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2666,7 +3378,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "天慈"
+                "name": "天慈",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2680,7 +3396,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "天湖"
+                "name": "天湖",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2694,7 +3414,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "銀座"
+                "name": "銀座",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2708,7 +3432,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "水邊圍"
+                "name": "水邊圍",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2722,7 +3450,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "豐年路"
+                "name": "豐年路",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2736,7 +3468,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "康樂路"
+                "name": "康樂路",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2750,7 +3486,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "大棠路"
+                "name": "大棠路",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2764,7 +3504,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "元朗"
+                "name": "元朗",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2778,7 +3522,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "頌富"
+                "name": "頌富",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2792,7 +3540,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "天富"
+                "name": "天富",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2806,7 +3558,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "天逸"
+                "name": "天逸",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2820,7 +3576,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "天恆"
+                "name": "天恆",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2834,7 +3594,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "濕地公園"
+                "name": "濕地公園",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2848,7 +3612,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "天秀"
+                "name": "天秀",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2862,7 +3630,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "天悅"
+                "name": "天悅",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2876,7 +3648,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "輕鐵車廠"
+                "name": "輕鐵車廠",
+                "company": "港鐵",
+                "type": "車廠",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2890,7 +3666,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "洪天路緊急月台"
+                "name": "洪天路緊急月台",
+                "company": "港鐵",
+                "type": "緊急月台",
+                "line": "輕鐵",
+                "status": "運作中"
             }
         },
         {
@@ -2904,7 +3684,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "東涌"
+                "name": "東涌",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "昂坪360",
+                "status": "運作中"
             }
         },
         {
@@ -2918,7 +3702,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "機場島轉向站"
+                "name": "機場島轉向站",
+                "company": "港鐵",
+                "type": "轉向站",
+                "line": "昂坪360",
+                "status": "運作中"
             }
         },
         {
@@ -2932,7 +3720,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "彌勒山轉向站"
+                "name": "彌勒山轉向站",
+                "company": "港鐵",
+                "type": "轉向站",
+                "line": "昂坪360",
+                "status": "運作中"
             }
         },
         {
@@ -2946,7 +3738,11 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "昂坪"
+                "name": "昂坪",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "昂坪360",
+                "status": "運作中"
             }
         },
         {
@@ -2960,7 +3756,10 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "紅磡（九龍）"
+                "name": "紅磡（九龍）",
+                "company": "國鐵",
+                "type": "車站",
+                "status": "運作中"
             }
         },
         {
@@ -2974,7 +3773,10 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "西九龍總站"
+                "name": "西九龍總站",
+                "company": "國鐵",
+                "type": "車站",
+                "status": "運作中"
             }
         },
         {
@@ -2988,7 +3790,10 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "石崗列車停放處／緊急救援站"
+                "name": "石崗列車停放處／緊急救援站",
+                "company": "國鐵",
+                "type": "車廠",
+                "status": "運作中"
             }
         },
         {
@@ -3002,7 +3807,10 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "花園道"
+                "name": "花園道",
+                "company": "山頂纜車",
+                "type": "車站",
+                "status": "運作中"
             }
         },
         {
@@ -3016,7 +3824,10 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "堅尼地道"
+                "name": "堅尼地道",
+                "company": "山頂纜車",
+                "type": "車站",
+                "status": "運作中"
             }
         },
         {
@@ -3030,7 +3841,10 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "麥當奴道"
+                "name": "麥當奴道",
+                "company": "山頂纜車",
+                "type": "車站",
+                "status": "運作中"
             }
         },
         {
@@ -3044,7 +3858,10 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "梅道"
+                "name": "梅道",
+                "company": "山頂纜車",
+                "type": "車站",
+                "status": "運作中"
             }
         },
         {
@@ -3058,7 +3875,10 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "白加道"
+                "name": "白加道",
+                "company": "山頂纜車",
+                "type": "車站",
+                "status": "運作中"
             }
         },
         {
@@ -3072,7 +3892,10 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "山頂"
+                "name": "山頂",
+                "company": "山頂纜車",
+                "type": "車站",
+                "status": "運作中"
             }
         },
         {
@@ -4353,7 +5176,6 @@ var railwayData = [{
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-
                 "coordinates": [
                     114.18811,
                     22.279783,
@@ -5153,27 +5975,13 @@ var railwayData = [{
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    114.1557637059,
-                    22.27954578502291,
+                    114.100157383497,
+                    22.50765674980376,
                     0
                 ]
             },
             "properties": {
-                "name": "中環南"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    114.2040030604933,
-                    22.42820773914763,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "白石角"
+                "name": "古洞"
             }
         },
         {
@@ -5195,6 +6003,20 @@ var railwayData = [{
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    114.063420750289,
+                    22.4347261744775,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "錦上路"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     113.9857771736126,
                     22.42630955557879,
                     0
@@ -5209,8 +6031,8 @@ var railwayData = [{
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    113.9664607569432,
-                    22.37828172274993,
+                    113.9659938487242,
+                    22.37545036193806,
                     0
                 ]
             },
@@ -5223,13 +6045,13 @@ var railwayData = [{
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    114.1658227204265,
-                    22.28192837866503,
+                    114.2008407412562,
+                    22.33872204387838,
                     0
                 ]
             },
             "properties": {
-                "name": "添馬"
+                "name": "鑽石山"
             }
         },
         {
@@ -5237,13 +6059,13 @@ var railwayData = [{
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    114.1755360969223,
-                    22.28182151554635,
+                    114.2150925540196,
+                    22.33438195879635,
                     0
                 ]
             },
             "properties": {
-                "name": "會展"
+                "name": "彩雲"
             }
         },
         {
@@ -5251,13 +6073,83 @@ var railwayData = [{
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    114.1858541047856,
-                    22.28310844507718,
+                    114.2292705463414,
+                    22.32401395083835,
                     0
                 ]
             },
             "properties": {
-                "name": "維園"
+                "name": "順天"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2312994712959,
+                    22.31893913539424,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "秀茂坪"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2386623646885,
+                    22.31437441137923,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "寶達"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2565275202161,
+                    22.32416552451357,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "寶琳"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9599470997639,
+                    22.29753099169834,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "東涌東"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9330753764539,
+                    22.27747049944863,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "東涌西"
             }
         },
         {
@@ -5363,6 +6255,90 @@ var railwayData = [{
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    114.1658227204265,
+                    22.28192837866503,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "添馬"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1658227204265,
+                    22.28192837866503,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "添馬"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1755360969223,
+                    22.28182151554635,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "會展"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1858541047856,
+                    22.28310844507718,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "維園"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1557637059,
+                    22.27954578502291,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "中環南"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2040030604933,
+                    22.42820773914763,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "白石角"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     114.2494373395274,
                     22.262683930124,
                     0
@@ -5391,34 +6367,6 @@ var railwayData = [{
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    113.9599470997639,
-                    22.29753099169834,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "東涌東"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    113.9330753764539,
-                    22.27747049944863,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "東涌西"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     114.0656997163144,
                     22.51436696920651,
                     0
@@ -5426,20 +6374,6 @@ var railwayData = [{
             },
             "properties": {
                 "name": "落馬洲"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    114.100157383497,
-                    22.50765674980376,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "古洞"
             }
         },
         {
@@ -5482,20 +6416,6 @@ var railwayData = [{
             },
             "properties": {
                 "name": "凹頭"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    114.063420750289,
-                    22.4347261744775,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "錦上路"
             }
         },
         {
@@ -5677,7 +6597,7 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "九龍灣"
+                "name": "九龍灣總站"
             }
         },
         {
@@ -5699,13 +6619,13 @@ var railwayData = [{
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    114.2060464458773,
-                    22.32427057600468,
+                    114.2066211295477,
+                    22.32033698434913,
                     0
                 ]
             },
             "properties": {
-                "name": "宏光道"
+                "name": "九龍灣商貿區"
             }
         },
         {
@@ -5713,27 +6633,27 @@ var railwayData = [{
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    114.2054838061458,
-                    22.33006760216798,
+                    114.205919329795,
+                    22.32548560034285,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "啟祥道"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2056100805746,
+                    22.32911878620676,
                     0
                 ]
             },
             "properties": {
                 "name": "麗晶花園"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    114.203684782323,
-                    22.33124635054535,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "啟晴邨"
             }
         },
         {
@@ -5831,7 +6751,7 @@ var railwayData = [{
                 ]
             },
             "properties": {
-                "name": "觀塘"
+                "name": "觀塘總站"
             }
         },
         {
@@ -5965,8 +6885,8 @@ var railwayData = [{
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    113.9506706996846,
-                    22.31902882180728,
+                    113.9542040917171,
+                    22.31540940000779,
                     0
                 ]
             },
@@ -5993,8 +6913,8 @@ var railwayData = [{
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    113.9506706996846,
-                    22.31902882180728,
+                    113.9538407098034,
+                    22.31612046049285,
                     0
                 ]
             },
@@ -6031,4 +6951,4 @@ var railwayData = [{
             }
         }
     ]
-}];
+};
