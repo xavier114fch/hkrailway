@@ -6863,7 +6863,11 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "中環南"
+                "name": "中環南",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "南北綫",
+                "status": "擱置"
             }
         },
         {
@@ -6877,7 +6881,11 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "白石角"
+                "name": "白石角",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "南北綫",
+                "status": "擱置"
             }
         },
         {
@@ -6891,7 +6899,11 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "小西灣"
+                "name": "小西灣",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "港島綫",
+                "status": "擱置"
             }
         },
         {
@@ -6905,7 +6917,11 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "小蠔灣"
+                "name": "小蠔灣",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "東涌綫",
+                "status": "擱置"
             }
         },
         {
@@ -6919,7 +6935,11 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "落馬洲"
+                "name": "落馬洲",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "北環綫",
+                "status": "擱置"
             }
         },
         {
@@ -6933,7 +6953,11 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "新田"
+                "name": "新田",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "北環綫",
+                "status": "擱置"
             }
         },
         {
@@ -6947,7 +6971,11 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "牛潭尾"
+                "name": "牛潭尾",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "北環綫",
+                "status": "擱置"
             }
         },
         {
@@ -6961,7 +6989,11 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "凹頭"
+                "name": "凹頭",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "北環綫",
+                "status": "擱置"
             }
         },
         {
@@ -6975,7 +7007,11 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "屯門中"
+                "name": "屯門中",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "荃灣—屯門綫",
+                "status": "擱置"
             }
         },
         {
@@ -6989,7 +7025,11 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "屯門西"
+                "name": "屯門西",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "荃灣—屯門綫",
+                "status": "擱置"
             }
         },
         {
@@ -7003,7 +7043,11 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "三聖"
+                "name": "三聖",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "荃灣—屯門綫",
+                "status": "擱置"
             }
         },
         {
@@ -7017,7 +7061,11 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "掃管笏"
+                "name": "掃管笏",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "荃灣—屯門綫",
+                "status": "擱置"
             }
         },
         {
@@ -7031,7 +7079,11 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "青龍頭"
+                "name": "青龍頭",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "荃灣—屯門綫",
+                "status": "擱置"
             }
         },
         {
@@ -7045,7 +7097,11 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "深井東"
+                "name": "深井東",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "荃灣—屯門綫",
+                "status": "擱置"
             }
         },
         {
@@ -7059,7 +7115,11 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "灣景"
+                "name": "灣景",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "荃灣—屯門綫",
+                "status": "擱置"
             }
         },
         {
@@ -7073,7 +7133,11 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "荃灣西"
+                "name": "荃灣西",
+                "company": "港鐵",
+                "type": "車站",
+                "line": "荃灣—屯門綫",
+                "status": "擱置"
             }
         },
         {
@@ -7087,7 +7151,11 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "青龍頭車廠"
+                "name": "青龍頭車廠",
+                "company": "港鐵",
+                "type": "車廠",
+                "line": "荃灣—屯門綫",
+                "status": "擱置"
             }
         },
         {
@@ -7101,7 +7169,11 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "港珠澳大橋香港口岸"
+                "name": "港珠澳大橋香港口岸",
+                "company": "國鐵",
+                "type": "車站",
+                "line": "港深西部快速軌道",
+                "status": "擱置"
             }
         },
         {
@@ -7115,7 +7187,10 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "第三跑道東客運廊"
+                "name": "第三跑道東客運廊",
+                "company": "香港國際機場旅客捷運系統",
+                "type": "車站",
+                "status": "擬議中"
             }
         },
         {
@@ -7129,7 +7204,10 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "第三跑道西客運廊"
+                "name": "第三跑道西客運廊",
+                "company": "香港國際機場旅客捷運系統",
+                "type": "車站",
+                "status": "擬議中"
             }
         },
         {
@@ -7143,7 +7221,10 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "九龍灣總站"
+                "name": "九龍灣總站",
+                "company": "啟德環保連接系統",
+                "type": "車站",
+                "status": "擬議中"
             }
         },
         {
@@ -7157,7 +7238,10 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "海濱道"
+                "name": "海濱道",
+                "company": "啟德環保連接系統",
+                "type": "車站",
+                "status": "擬議中"
             }
         },
         {
@@ -7171,7 +7255,10 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "九龍灣商貿區"
+                "name": "九龍灣商貿區",
+                "company": "啟德環保連接系統",
+                "type": "車站",
+                "status": "擬議中"
             }
         },
         {
@@ -7185,7 +7272,10 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "啟祥道"
+                "name": "啟祥道",
+                "company": "啟德環保連接系統",
+                "type": "車站",
+                "status": "擬議中"
             }
         },
         {
@@ -7199,7 +7289,10 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "麗晶花園"
+                "name": "麗晶花園",
+                "company": "啟德環保連接系統",
+                "type": "車站",
+                "status": "擬議中"
             }
         },
         {
@@ -7213,7 +7306,10 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "車站廣場"
+                "name": "車站廣場",
+                "company": "啟德環保連接系統",
+                "type": "車站",
+                "status": "擬議中"
             }
         },
         {
@@ -7227,7 +7323,10 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "體育場館"
+                "name": "體育場館",
+                "company": "啟德環保連接系統",
+                "type": "車站",
+                "status": "擬議中"
             }
         },
         {
@@ -7241,7 +7340,10 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "都會公園"
+                "name": "都會公園",
+                "company": "啟德環保連接系統",
+                "type": "車站",
+                "status": "擬議中"
             }
         },
         {
@@ -7255,7 +7357,10 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "跑道休閒區"
+                "name": "跑道休閒區",
+                "company": "啟德環保連接系統",
+                "type": "車站",
+                "status": "擬議中"
             }
         },
         {
@@ -7269,7 +7374,10 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "郵輪碼頭"
+                "name": "郵輪碼頭",
+                "company": "啟德環保連接系統",
+                "type": "車站",
+                "status": "擬議中"
             }
         },
         {
@@ -7283,7 +7391,10 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "觀塘碼頭"
+                "name": "觀塘碼頭",
+                "company": "啟德環保連接系統",
+                "type": "車站",
+                "status": "擬議中"
             }
         },
         {
@@ -7297,7 +7408,10 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "觀塘總站"
+                "name": "觀塘總站",
+                "company": "啟德環保連接系統",
+                "type": "車站",
+                "status": "擬議中"
             }
         },
         {
@@ -7311,7 +7425,10 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "車廠"
+                "name": "車廠",
+                "company": "啟德環保連接系統",
+                "type": "車廠",
+                "status": "擬議中"
             }
         },
         {
@@ -7325,7 +7442,10 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "戲曲廣場"
+                "name": "戲曲廣場",
+                "company": "西九文化區EFTS",
+                "type": "車站",
+                "status": "擬議中"
             }
         },
         {
@@ -7339,7 +7459,10 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "總站前院"
+                "name": "總站前院",
+                "company": "西九文化區EFTS",
+                "type": "車站",
+                "status": "擬議中"
             }
         },
         {
@@ -7353,7 +7476,10 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "中央廣場"
+                "name": "中央廣場",
+                "company": "西九文化區EFTS",
+                "type": "車站",
+                "status": "擬議中"
             }
         },
         {
@@ -7367,7 +7493,10 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "藝術廣場"
+                "name": "藝術廣場",
+                "company": "西九文化區EFTS",
+                "type": "車站",
+                "status": "擬議中"
             }
         },
         {
@@ -7381,7 +7510,10 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "M+博物館"
+                "name": "M+博物館",
+                "company": "西九文化區EFTS",
+                "type": "車站",
+                "status": "擬議中"
             }
         },
         {
@@ -7395,7 +7527,10 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "大演藝場"
+                "name": "大演藝場",
+                "company": "西九文化區EFTS",
+                "type": "車站",
+                "status": "擬議中"
             }
         },
         {
@@ -7409,7 +7544,10 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "避風塘"
+                "name": "避風塘",
+                "company": "西九文化區EFTS",
+                "type": "車站",
+                "status": "擬議中"
             }
         },
         {
@@ -7423,7 +7561,11 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "洪水橋"
+                "name": "洪水橋",
+                "company": "國鐵",
+                "type": "車站",
+                "line": "港深西部快速軌道（本地支綫）",
+                "status": "擱置"
             }
         },
         {
@@ -7437,7 +7579,11 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "香港國際機場"
+                "name": "香港國際機場",
+                "company": "國鐵",
+                "type": "車站",
+                "line": "港深西部快速軌道",
+                "status": "擱置"
             }
         },
         {
@@ -7451,7 +7597,11 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "屯門南"
+                "name": "屯門南",
+                "company": "國鐵",
+                "type": "車站",
+                "line": "港深西部快速軌道（本地支綫）",
+                "status": "擱置"
             }
         },
         {
@@ -7465,7 +7615,11 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "香港國際機場"
+                "name": "香港國際機場",
+                "company": "國鐵",
+                "type": "車站",
+                "line": "港深西部快速軌道（本地支綫）",
+                "status": "擱置"
             }
         },
         {
@@ -7479,7 +7633,11 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "小蠔灣"
+                "name": "小蠔灣",
+                "company": "國鐵",
+                "type": "車站",
+                "line": "港深西部快速軌道（本地支綫）",
+                "status": "擱置"
             }
         },
         {
@@ -7493,7 +7651,11 @@ var railwayData = {
                 ]
             },
             "properties": {
-                "name": "車廠"
+                "name": "車廠",
+                "company": "國鐵",
+                "type": "車站",
+                "line": "港深西部快速軌道（本地支綫）",
+                "status": "擱置"
             }
         }
     ]

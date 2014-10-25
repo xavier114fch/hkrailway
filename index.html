@@ -35,8 +35,8 @@
 		function pointToLayer(feature, latlng) {
 			var options = {
 					radius: 8,
-					fillColor: "",
-					color: "#000",
+					fillColor: "#000",
+					color: "#fff",
 					weight: 1,
 					opacity: 1,
 					fillOpacity: 0.8
@@ -67,16 +67,21 @@
 					options.radius = 4;
 					options.weight = 0.5;
 				}
-
-				if (feature.properties.status == '擬議中') {
-					options.dashArray = "2.5, 2.5";
-					options.fillOpacity = 0.5;
-				}
 			}
 
-			if (feature.properties.company == '香港電車' || feature.properties.company == '山頂纜車' || feature.properties.company == '海洋公園' || feature.properties.company == '香港迪士尼樂園') {
+			if (feature.properties.company == '香港電車' || feature.properties.company == '山頂纜車' || feature.properties.company == '海洋公園' || feature.properties.company == '香港迪士尼樂園' || feature.properties.company == '香港國際機場旅客捷運系統' || feature.properties.company == '啟德環保連接系統' || feature.properties.company == '西九文化區EFTS') {
 				options.radius = 4;
 				options.weight = 0.5;
+			}
+
+			if (feature.properties.status == '擬議中') {
+				options.dashArray = "2.5, 2.5";
+				options.fillOpacity = 0.5;
+			}
+
+			if (feature.properties.status == '擱置') {
+				options.dashArray = "2.5, 2.5";
+				options.fillOpacity = 0.25;
 			}
 
 			return L.circleMarker(latlng, options);
@@ -89,7 +94,7 @@
 		}
 
 		function filter(feature, layer) {
-			return (feature.properties.company == '港鐵');
+			return true; // (feature.properties.company == '港鐵');
 		}
 	</script>
 </body>
