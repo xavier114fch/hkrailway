@@ -5,6 +5,7 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
 		<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+		<script src="data.json"></script>        
 		<style type="text/css">
 			body {
 				margin: 0;
@@ -24,6 +25,31 @@
     			attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
     			maxZoom: 18
 			}).addTo(map);
+			
+			L.geoJson(railwayData, {
+				onEachFeature: showName,
+				pointToLayer: pointToLayer
+			}).addTo(map);
+			
+			function pointToLayer(feature, latlng) {
+				var options = {
+					radius: 8,
+    				fillColor: "",
+    				color: "#000",
+    				weight: 1,
+    				opacity: 1,
+    				fillOpacity: 0.8
+				};
+				switch (feature.properties.line) {
+					case '觀塘綫': options.fillColor = "#33b652";
+				}
+				return L.circleMarker(latlng, options);
+			}
+			function showName(feature, layer) {
+    			if (feature.properties && feature.properties.name) {
+        			layer.bindPopup(feature.properties.name);
+    			}
+			}
 		</script>
 	</body>
 </html>

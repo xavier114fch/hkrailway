@@ -1,0 +1,6034 @@
+// JSON Document
+var railwayData = [{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1886900894578,
+                    22.30557045803315,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "黃埔",
+				"type":	"港鐵",
+				"line": "觀塘綫"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1825035303309,
+                    22.30938280446549,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "何文田",
+				"type":	"港鐵",
+				"line": "觀塘綫"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1706786667456,
+                    22.31295084360796,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "油麻地",
+				"type":	"港鐵",
+				"line": "觀塘綫"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1693804706394,
+                    22.31923989764185,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "旺角",
+				"type":	"港鐵",
+				"line": "觀塘綫"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1683139821122,
+                    22.32447609241245,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "太子",
+				"type":	"港鐵",
+				"line": "觀塘綫"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1686680964714,
+                    22.33186673610763,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "石硤尾",
+				"type":	"港鐵",
+				"line": "觀塘綫"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1770849517589,
+                    22.33684452440443,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "九龍塘",
+				"type":	"港鐵",
+				"line": "觀塘綫"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1871613195336,
+                    22.33773331582802,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "樂富",
+				"type":	"港鐵",
+				"line": "觀塘綫"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1940606227215,
+                    22.34175581587159,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "黃大仙",
+				"type":	"港鐵",
+				"line": "觀塘綫"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2013745702596,
+                    22.33998184226154,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "鑽石山",
+				"type":	"港鐵",
+				"line": "觀塘綫"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2090561475201,
+                    22.33488066859972,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "彩虹",
+				"type":	"港鐵",
+				"line": "觀塘綫"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.214021672008,
+                    22.32344211612772,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "九龍灣",
+				"type":	"港鐵",
+				"line": "觀塘綫"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2188208459829,
+                    22.31551207412429,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "牛頭角",
+				"type":	"港鐵",
+				"line": "觀塘綫"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2264120485002,
+                    22.31219275630135,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "觀塘",
+				"type":	"港鐵",
+				"line": "觀塘綫"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2325989719517,
+                    22.30709149514188,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "藍田",
+				"type":	"港鐵",
+				"line": "觀塘綫"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2371376730608,
+                    22.29794675709375,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "油塘",
+				"type":	"港鐵",
+				"line": "觀塘綫"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2521236578038,
+                    22.30398733322008,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "調景嶺",
+				"type":	"港鐵",
+				"line": "觀塘綫"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2128409201904,
+                    22.32300684744411,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "九龍灣車廠"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1594948520531,
+                    22.28158923723438,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "中環"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1650592036003,
+                    22.27909690454002,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "金鐘"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1721754795554,
+                    22.29710764718886,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "尖沙咀"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.171597784335,
+                    22.30536201173149,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "佐敦"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1706786667456,
+                    22.31295084360796,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "油麻地"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1693804706394,
+                    22.31923989764185,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "旺角"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1683139821122,
+                    22.32447609241245,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "太子"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1622963677636,
+                    22.33071675346586,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "深水埗"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1560605210819,
+                    22.33556210810414,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "長沙灣"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1478196483101,
+                    22.33719465699365,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "荔枝角"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1391838061224,
+                    22.33800059835068,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "美孚"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1262154433007,
+                    22.34841011774895,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "荔景"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1277551586409,
+                    22.35683533895871,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "葵芳"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.131172336257,
+                    22.36315777857335,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "葵興"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1243932710744,
+                    22.37065972587792,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "大窩口"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1176943240196,
+                    22.37371701264186,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "荃灣"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1199565296346,
+                    22.37358325825221,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "荃灣車廠"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1281731882522,
+                    22.28128030036568,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "堅尼地城"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.135521134648,
+                    22.28420336945256,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "香港大學"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1433386185632,
+                    22.28606201081611,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "西營盤"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1516838671591,
+                    22.2865870239605,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "上環"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1579584240151,
+                    22.28178247128347,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "中環"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1651259211011,
+                    22.27886416890917,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "金鐘"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1726032186693,
+                    22.27759973695313,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "灣仔"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.183953520093,
+                    22.28015153807516,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "銅鑼灣"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1919623613709,
+                    22.2823503770919,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "天后"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1937229172015,
+                    22.28805374234518,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "炮台山"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1991147988652,
+                    22.29096787780424,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "北角"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2092379230633,
+                    22.28813606833752,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "鰂魚涌"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2161288964465,
+                    22.28455740777388,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "太古"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2220231751947,
+                    22.28198994515897,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "西灣河"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2287202014841,
+                    22.27935445232369,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "筲箕灣"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2397287497609,
+                    22.27657387492731,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "杏花邨"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2370311346026,
+                    22.26460432926366,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "柴灣"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2385779141795,
+                    22.27676566738464,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "柴灣車廠"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1581341740033,
+                    22.28526522892028,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "香港"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1620249213442,
+                    22.30555942564031,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "九龍"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1603259880449,
+                    22.31782807558763,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "奧運"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1533344638777,
+                    22.3266432774814,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "南昌"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1262154433007,
+                    22.34841011774895,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "荔景"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1070469070222,
+                    22.35853219537493,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "青衣"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.0288005743253,
+                    22.33183455904085,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "欣澳"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9411413935059,
+                    22.28923248540465,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "東涌"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9831207325777,
+                    22.30810833701363,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "小蠔灣車廠"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1581341740033,
+                    22.28526522892028,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "香港"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1620249213442,
+                    22.30555942564031,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "九龍"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1070469070222,
+                    22.35853219537493,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "青衣"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9366822081154,
+                    22.31588777612046,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "機場"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9419172565889,
+                    22.32201328134234,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "博覽館"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9831207325777,
+                    22.30810833701363,
+
+                    0
+                ]
+            },
+            "properties": {
+                "name": "小蠔灣車廠"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1991978066973,
+                    22.29016324403558,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "北角"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2092379230633,
+                    22.28813606833752,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "鰂魚涌"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2371376730608,
+                    22.29794675709375,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "油塘"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2521236578038,
+                    22.30398733322008,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "調景嶺"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.260031615368,
+                    22.30742500052876,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "將軍澳"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2643453412791,
+                    22.31564340365183,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "坑口"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2579323467921,
+                    22.3223130821203,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "寶琳"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2692510401512,
+                    22.29593695186475,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "康城"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2685902687643,
+                    22.29437255803647,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "將軍澳車廠"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.0288005743253,
+                    22.33183455904085,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "欣澳"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.0451098151016,
+                    22.31553211278345,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "迪士尼"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9831207325777,
+                    22.30810833701363,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "小蠔灣車廠"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.243742904828,
+                    22.42903846678241,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "烏溪沙"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2314560494694,
+                    22.42476523607144,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "馬鞍山"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2257571988095,
+                    22.41749223920403,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "恆安"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2229525679792,
+                    22.40894372310912,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "大水坑"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2082067287538,
+                    22.38763483896665,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "石門"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2033165678016,
+                    22.38276777569927,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "第一城"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1946703130638,
+                    22.37688923088307,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "沙田圍"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1859933389855,
+                    22.37481926589814,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "車公廟"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1786274653204,
+                    22.3728156436365,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "大圍"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1705574002246,
+                    22.36356174797307,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "顯徑"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2010597767473,
+                    22.33968882476798,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "鑽石山"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1994494052332,
+                    22.33008716658427,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "啟德"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1912224713099,
+                    22.32586281755604,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "土瓜灣"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1875890209779,
+                    22.31713157794592,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "馬頭圍"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1825035303309,
+                    22.30938280446549,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "何文田"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1820503861029,
+                    22.30290357348818,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "紅磡"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1750743016988,
+                    22.2954819468309,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "尖東"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1664438460912,
+                    22.30454009882874,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "柯士甸"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.153502755217,
+                    22.32683339660248,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "南昌"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1364680956939,
+                    22.33823933470091,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "美孚"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1101540295271,
+                    22.36840706818689,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "荃灣西"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.063420750289,
+                    22.4347261744775,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "錦上路"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.0348264742953,
+                    22.44613290373521,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "元朗"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.0252303532643,
+                    22.44768266241965,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "朗屏"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.0044314268901,
+                    22.44800357838909,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "天水圍"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9789075819236,
+                    22.41190758256581,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "兆康"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9731959498789,
+                    22.3952259398166,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "屯門"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1757358156196,
+                    22.37021255881599,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "大圍車廠"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1831678204797,
+                    22.3025043895363,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "紅勵列車停放處"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.0683906846886,
+                    22.4209995571641,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "八鄉車廠"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1660324831433,
+                    22.27799436341745,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "金鐘"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1755360969223,
+                    22.28182151554635,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "會展"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1820503861029,
+                    22.30290357348818,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "紅磡"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1726628857583,
+                    22.32290381591181,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "旺角東"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1758162669106,
+                    22.33704176948804,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "九龍塘"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1784313819938,
+                    22.37311299691724,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "大圍"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1874607293847,
+                    22.38264876801237,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "沙田"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1982375595145,
+                    22.39541473577895,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "火炭"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2028263416432,
+                    22.40044643098392,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "馬場"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2100425889323,
+                    22.41348875422303,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "大學"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1705558063344,
+                    22.44469787461238,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "大埔墟"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1612679895953,
+                    22.45089563207575,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "太和"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1390000756434,
+                    22.49181200708738,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "粉嶺"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1279736488503,
+                    22.50123920559393,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "上水"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1132788473779,
+                    22.52754035859034,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "羅湖"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.0656997163144,
+                    22.51436696920651,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "落馬洲"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2012573827776,
+                    22.39882963582409,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "何東樓車廠"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1831678204797,
+                    22.3025043895363,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "紅磡列車停放處"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1658026827561,
+                    22.27730115584285,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "金鐘"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1744004431635,
+                    22.24859392902352,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "海洋公園"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1676380980707,
+                    22.24783439391686,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "黃竹坑"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1551751799829,
+                    22.24142091736333,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "利東"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.148669195722,
+                    22.24306309146042,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "海怡半島"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1676799386371,
+                    22.2467488824006,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "黃竹坑車廠"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9650735661567,
+                    22.38524868834276,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "龍門"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9633887042307,
+                    22.38187090997276,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "輕鐵車廠"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9617204534994,
+                    22.37815927538879,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "蝴蝶"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9611089761626,
+                    22.37509790180134,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "美樂"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.966419468601,
+                    22.37278454679258,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "屯門碼頭"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9668818748362,
+                    22.37520302203048,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "兆禧"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9703945704466,
+                    22.38122189067227,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "屯門泳池"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9730110772132,
+                    22.3832794078286,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "豐景園"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9750269967741,
+                    22.38459441186788,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "兆麟"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9767608499863,
+                    22.38224545290425,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "三聖"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9671529790503,
+                    22.39067889346968,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "青山村"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9674601850491,
+                    22.39434653384446,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "青雲"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9673163462194,
+                    22.39712688502772,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "鳴琴"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9677469197366,
+                    22.4013923727493,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "石排"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9742922511127,
+                    22.40262343336843,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "銀圍"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9719345391386,
+                    22.40272816868339,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "大興（南）"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9699601460258,
+                    22.40464167154097,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "大興（北）"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.975865988868,
+                    22.4035903193554,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "澤豐"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9743576007272,
+                    22.40000625134498,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "菜意橋"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9731804622704,
+                    22.39741748383151,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "河田"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9736131406979,
+                    22.38673230715336,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "友愛"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.975077734135,
+                    22.38763805719658,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "安定"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9749358033912,
+                    22.39136164909562,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "市中心"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9690131108266,
+                    22.39512562872267,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "建安"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.973236711878,
+                    22.39384770343311,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "屯門"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9660561098413,
+                    22.39657182259705,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "山景（南）"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9666382852434,
+                    22.39876783460918,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "山景（北）"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9766149473829,
+                    22.39461037737671,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "杯渡"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9774633923114,
+                    22.39741290140253,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "何福堂"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9779849395036,
+                    22.4002392209538,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "新墟"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9794629201518,
+                    22.40312570218055,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "景峰"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9764171140036,
+                    22.41071144286046,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "麒麟"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9771152415635,
+                    22.40782851726932,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "屯門醫院"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9783006961212,
+                    22.41204260780023,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "兆康"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9817672326617,
+                    22.41864410831511,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "藍地"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9866068746202,
+                    22.42403429525454,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "泥圍"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9920807862626,
+                    22.42967544472117,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "鍾屋村"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9725887147786,
+                    22.40737209769527,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "青松"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9691795282405,
+                    22.40674402690284,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "建生"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9664207938913,
+                    22.40768138328403,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "田景"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.963602829139,
+                    22.40672003165626,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "良景"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.964474678181,
+                    22.40525823231621,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "新圍"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.978787338615,
+                    22.40678418420351,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "鳳地"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9973121673035,
+                    22.43361334330847,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "洪水橋"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.0072577290579,
+                    22.44020254284822,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "屏山"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.0119467414839,
+                    22.44288185542809,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "塘坊村"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.0054612093469,
+                    22.44510937569533,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "坑尾村"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.0026158519376,
+                    22.45035249870965,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "天耀"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.0009771634163,
+                    22.4530248455284,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "樂湖"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9992598959906,
+                    22.45590223941518,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "天瑞"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.0021981288843,
+                    22.4598004769111,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "天榮"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9994229710308,
+                    22.45959599528922,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "翠湖"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.0057016238994,
+                    22.44926453068624,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "天水圍"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.0059304020967,
+                    22.45267977336953,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "天慈"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.0055879766242,
+                    22.45494430783785,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "天湖"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.0047552220234,
+                    22.45756681696103,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "銀座"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.0196607366374,
+                    22.44439235565313,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "水邊圍"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.0237262483052,
+                    22.44448217902805,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "豐年路"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.0271072676773,
+                    22.44443723363236,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "康樂路"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.0293284302968,
+                    22.44443391252845,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "大棠路"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.034894756756,
+                    22.44558268643129,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "元朗"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9968247831615,
+                    22.46189967585729,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "頌富"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9975306591828,
+                    22.46449578381831,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "天富"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9986622122966,
+                    22.46695754699931,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "天逸"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.0005885957317,
+                    22.46965358223687,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "天恆"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.002378048077,
+                    22.46957895039827,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "濕地公園"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.0027951180219,
+                    22.46554392834853,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "天秀"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.0014645528261,
+                    22.46275754284287,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "天悅"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9651570541818,
+                    22.38163811095538,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "輕鐵車廠"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9991332766902,
+                    22.43555100256162,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "洪天路緊急月台"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9383430892767,
+                    22.29031214386668,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "東涌"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9325941301615,
+                    22.29173193569458,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "機場島轉向站"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9078073242244,
+                    22.26919715303308,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "彌勒山轉向站"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9013326644979,
+                    22.25628951455227,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "昂坪"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1815154959374,
+                    22.30264193199092,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "紅磡（九龍）"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1647200491381,
+                    22.30379888672222,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "西九龍總站"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.0861035655798,
+                    22.43914166862282,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "石崗列車停放處／緊急救援站"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.159448660731,
+                    22.27777901683784,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "花園道"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1580606143284,
+                    22.27630825428289,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "堅尼地道"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1573142145303,
+                    22.27528643581651,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "麥當奴道"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1560341899381,
+                    22.27344555501258,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "梅道"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1517042093079,
+                    22.27097546295051,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "白加道"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1501021531912,
+                    22.27111676097333,
+                    392.5505827809309
+                ]
+            },
+            "properties": {
+                "name": "山頂"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.126274,
+                    22.282967,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "堅尼地城總站"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.128883,
+                    22.283443,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "北街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.130608,
+                    22.284599,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "荷蘭街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.132294,
+                    22.286654,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "皇后大道西"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.134575,
+                    22.287033,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "山道"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.135109,
+                    22.286932,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "石塘咀總站"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.13784,
+                    22.288338,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "屈地街電車廠"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.136436,
+                    22.286814,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "屈地街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.138687,
+                    22.28743,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "水街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.140724,
+                    22.287968,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "西邊街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.143684,
+                    22.287886,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "東邊街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.147026,
+                    22.287668,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "皇后街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1502,
+                    22.287722,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "港澳碼頭"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.150719,
+                    22.286873,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "上環 (西港城) 總站"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.151978,
+                    22.286608,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "禧利街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.154678,
+                    22.285479,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "機利文街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.155693,
+                    22.284683,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "租庇利街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.157608,
+                    22.282253,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "畢打街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.158562,
+                    22.281065,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "雪廠街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.159866,
+                    22.280622,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "銀行街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.161217,
+                    22.279936,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "美利道"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.165359,
+                    22.278206,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "金鐘港鐵站"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.168152,
+                    22.277868,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "軍器廠街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.170059,
+                    22.277302,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "分域街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.171623,
+                    22.276478,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "盧押道"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.173126,
+                    22.276627,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "柯布連道"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.175049,
+                    22.27688,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "菲林明道"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.177971,
+                    22.278345,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "杜老誌道"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.180939,
+                    22.279295,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "堅拿道西"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.182953,
+                    22.280043,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "波斯富街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.186256,
+                    22.279696,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "百德新街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.187263,
+                    22.279362,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "銅鑼灣總站"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.18811,
+                    22.279783,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "信德街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.189514,
+                    22.280657,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "維多利亞公園"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.191063,
+                    22.2817,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "興發街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.192886,
+                    22.285107,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "永興街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.192947,
+                    22.28669,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "木星街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.194527,
+                    22.289503,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "炮台山"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.196732,
+                    22.291073,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "春秧街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.196938,
+                    22.290508,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "北角道"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.198944,
+                    22.291042,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "北角總站"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.200531,
+                    22.291145,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "書局街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.203293,
+                    22.291824,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "電照街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.204651,
+                    22.292042,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "健康西街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.207352,
+                    22.291801,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "健康東街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.209106,
+                    22.290834,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "渣華道"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.210014,
+                    22.288313,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "芬尼街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.211731,
+                    22.285042,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "柏架山道"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.213722,
+                    22.284698,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "船塢里"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.216042,
+                    22.284683,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "康山"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.220444,
+                    22.284094,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "太古城道"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.221153,
+                    22.28307,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "太康街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.221901,
+                    22.282202,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "太安街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.224495,
+                    22.280474,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "海富街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.225967,
+                    22.280252,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "西灣河電車廠"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.226051,
+                    22.279238,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "南康街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.229202,
+                    22.276741,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "柴灣道"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.230171,
+                    22.2777,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "筲箕灣總站"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.183228,
+                    22.278702,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "富明街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.182518,
+                    22.277124,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "禮頓道"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.183586,
+                    22.274036,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "樂活道"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.184647,
+                    22.271807,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "黃泥涌道"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.184174,
+                    22.269831,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "跑馬地總站"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.180023,
+                    22.272001,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "天主教墳場"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.179359,
+                    22.274361,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "皇后大道東"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.180435,
+                    22.276205,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "摩利臣山道"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.179489,
+                    22.278624,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "天樂里"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.230171,
+                    22.2777,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "筲箕灣總站"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.229202,
+                    22.276741,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "柴灣道"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.225731,
+                    22.279596,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "新成街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.225967,
+                    22.280252,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "西灣河電車廠"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.224495,
+                    22.280474,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "海富街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.222488,
+                    22.281343,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "聖十字徑"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.221153,
+                    22.28307,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "太康街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.220444,
+                    22.284094,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "太古城道"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.216034,
+                    22.284571,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "康山"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.213722,
+                    22.284698,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "船塢里"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.212372,
+                    22.284737,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "柏架山道"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.210014,
+                    22.288313,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "芬尼街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.209106,
+                    22.290834,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "渣華道"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.207352,
+                    22.291801,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "健康東街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.204651,
+                    22.292042,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "健康西街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.203293,
+                    22.291824,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "電照街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.200531,
+                    22.291145,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "書局街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.198944,
+                    22.291042,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "北角總站"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.196938,
+                    22.290508,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "北角道"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.194527,
+                    22.28933,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "炮台山"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.192947,
+                    22.28669,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "木星街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.192749,
+                    22.284292,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "琉璃街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.19239,
+                    22.283001,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "留仙街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.189644,
+                    22.280684,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "維多利亞公園"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+
+                "coordinates": [
+                    114.18811,
+                    22.279783,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "信德街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.187263,
+                    22.279362,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "銅鑼灣總站"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.186501,
+                    22.279531,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "邊寧頓街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.185593,
+                    22.279819,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "百德新街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.181427,
+                    22.279392,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "堅拿道西"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.177444,
+                    22.278112,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "杜老誌道"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.176102,
+                    22.277363,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "巴路士街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.17321,
+                    22.276512,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "柯布連道"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.171944,
+                    22.276386,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "汕頭街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.170273,
+                    22.277052,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "機利臣街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.168465,
+                    22.277767,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "軍器廠街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.165359,
+                    22.278206,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "金鐘港鐵站"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.163002,
+                    22.279144,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "紅棉道"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.159424,
+                    22.280708,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "銀行街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.157883,
+                    22.28187,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "畢打街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.156509,
+                    22.28356,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "砵甸乍街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.154854,
+                    22.285294,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "機利文街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.152924,
+                    22.286303,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "文華里"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.150719,
+                    22.286873,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "上環 (西港城) 總站"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1502,
+                    22.287722,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "港澳碼頭"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.148438,
+                    22.288132,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "干諾道西"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.145935,
+                    22.287746,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "修打蘭街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.143684,
+                    22.287886,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "東邊街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.140923,
+                    22.287951,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "西邊街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.138901,
+                    22.28746,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "水街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.13784,
+                    22.288338,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "屈地街電車廠"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.136551,
+                    22.286823,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "屈地街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.135109,
+                    22.286932,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "石塘咀總站"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.134521,
+                    22.287064,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "山道"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.132416,
+                    22.286808,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "皇后大道西"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.13073,
+                    22.28466,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "堅尼地城海傍"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.129562,
+                    22.283724,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "山市街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.12812,
+                    22.283279,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "士美菲路"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.12677,
+                    22.283051,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "爹核士街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.126282,
+                    22.282967,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "堅尼地城總站"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.183228,
+                    22.278702,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "富明街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.182518,
+                    22.277124,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "禮頓道"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.183586,
+                    22.274036,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "樂活道"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.184647,
+                    22.271807,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "黃泥涌道"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.184174,
+                    22.269831,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "跑馬地總站"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.180023,
+                    22.272001,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "天主教墳場"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.179359,
+                    22.274361,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "皇后大道東"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.180435,
+                    22.276205,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "摩利臣山道"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.179489,
+                    22.278624,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "天樂里"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.136962387077,
+                    22.28805299900411,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "屈地街電車廠"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2263554441863,
+                    22.28010610054465,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "西灣河電車廠"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9434090810117,
+                    22.31799662561723,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "海天客運碼頭"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9376298025543,
+                    22.316157682444,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "二號客運大樓"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9340369099294,
+                    22.31512011385279,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "一號客運大樓（東大堂）"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9272739497863,
+                    22.312977021102,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "一號客運大樓（西大堂）"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9177649941735,
+                    22.30979368136993,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "中場客運廊"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1723896398762,
+                    22.23374027832672,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "登山纜車高峰站"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1764073626253,
+                    22.24641161135093,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "登山纜車海濱站"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1707274583295,
+                    22.23438887346203,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "海洋列車高峰站"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1757652948152,
+                    22.24521666956191,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "海洋列車海濱站"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.0440491298028,
+                    22.31310788227152,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "美國小鎮大街"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.0396663919353,
+                    22.31235908465307,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "幻想世界"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1557637059,
+                    22.27954578502291,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "中環南"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2040030604933,
+                    22.42820773914763,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "白石角"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.100157383497,
+                    22.50765674980376,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "古洞"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9857771736126,
+                    22.42630955557879,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "洪水橋"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9664607569432,
+                    22.37828172274993,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "屯門南"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1658227204265,
+                    22.28192837866503,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "添馬"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1755360969223,
+                    22.28182151554635,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "會展"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1858541047856,
+                    22.28310844507718,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "維園"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.135521134648,
+                    22.28420336945256,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "香港大學"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1301243466005,
+                    22.27019093857701,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "瑪麗醫院"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1322539247297,
+                    22.26004724935311,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "數碼港"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1385155361037,
+                    22.25177620135869,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "華富"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1494120683927,
+                    22.25066221608662,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "田灣"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1554015800097,
+                    22.24923028391729,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "香港仔"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1676380980707,
+                    22.24783439391686,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "黃竹坑"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2494373395274,
+                    22.262683930124,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "小西灣"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9833761931153,
+                    22.30681258193744,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "小蠔灣"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9599470997639,
+                    22.29753099169834,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "東涌東"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9330753764539,
+                    22.27747049944863,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "東涌西"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.0656997163144,
+                    22.51436696920651,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "落馬洲"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.100157383497,
+                    22.50765674980376,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "古洞"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.0717236279752,
+                    22.48812479128366,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "新田"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.0609046151462,
+                    22.47449584355886,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "牛潭尾"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.0521935071193,
+                    22.45285028891586,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "凹頭"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.063420750289,
+                    22.4347261744775,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "錦上路"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9731959498789,
+                    22.3952259398166,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "屯門中"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9664607569432,
+                    22.37828172274993,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "屯門西"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9784654475627,
+                    22.3832444961051,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "三聖"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9927324434519,
+                    22.37344548600293,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "掃管笏"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.0381079368186,
+                    22.36082280392689,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "青龍頭"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.0631819322141,
+                    22.36759589104608,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "深井東"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.0990140625223,
+                    22.37030568383588,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "灣景"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1101540295271,
+                    22.36840706818689,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "荃灣西"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.0387199566624,
+                    22.36029613091606,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "青龍頭車廠"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9506706996846,
+                    22.31902882180728,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "港珠澳大橋香港口岸"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9192299393457,
+                    22.3252153743706,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "第三跑道東客運廊"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9084286629463,
+                    22.32199636744297,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "第三跑道西客運廊"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.214021672008,
+                    22.32344211612772,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "九龍灣"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2114356968836,
+                    22.31843269093095,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "海濱道"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2060464458773,
+                    22.32427057600468,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "宏光道"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2054838061458,
+                    22.33006760216798,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "麗晶花園"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.203684782323,
+                    22.33124635054535,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "啟晴邨"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1981352014723,
+                    22.32925063469668,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "車站廣場"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.198560323372,
+                    22.32445847035679,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "體育場館"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2004971573161,
+                    22.31968039206255,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "都會公園"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2050344202088,
+                    22.31418831229724,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "跑道休閒區"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2117633017818,
+                    22.30814008041028,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "郵輪碼頭"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2223680237977,
+                    22.3087241410277,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "觀塘碼頭"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2261906763153,
+                    22.3118763280174,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "觀塘"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.2109916277011,
+                    22.3188666026596,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "車廠"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1676749497561,
+                    22.30270948877609,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "戲曲廣場"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1654091614675,
+                    22.30267137987007,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "總站前院"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1632356045274,
+                    22.30252568973722,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "中央廣場"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.161010765018,
+                    22.30228903830935,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "藝術廣場"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.157963882787,
+                    22.30149088158857,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "M+博物館"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1566239621885,
+                    22.30192775922947,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "大演藝場"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1595929904276,
+                    22.30578135700081,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "避風塘"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9857771736126,
+                    22.42630955557879,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "洪水橋"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9506706996846,
+                    22.31902882180728,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "香港國際機場"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9664607569432,
+                    22.37828172274993,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "屯門南"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9506706996846,
+                    22.31902882180728,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "香港國際機場"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.9833761931153,
+                    22.30681258193744,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "小蠔灣"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.992651271725,
+                    22.45670107668604,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "車廠"
+            }
+        }
+    ]
+}];
