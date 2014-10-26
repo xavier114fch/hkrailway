@@ -26,6 +26,22 @@
 			maxZoom: 15
 		}).addTo(map);
 
+		var mtrKtlLayer = L.layerGroup();
+		var mtrTwlLayer = L.layerGroup();
+		var mtrIslLayer = L.layerGroup();
+		var mtrTklLayer = L.layerGroup();
+		var mtrTclLayer = L.layerGroup();
+		var mtrAelLayer = L.layerGroup();
+		var mtrDrlLayer = L.layerGroup();
+		var mtrNslLayer = L.layerGroup();
+		var mtrEwlLayer = L.layerGroup();
+		var mtrSilELayer = L.layerGroup();
+		var mtrLrLayer = L.layerGroup();
+		var mtr360Layer = L.layerGroup();
+		var mtrNolLayer = L.layerGroup();
+		var mtrSilWLayer = L.layerGroup();
+		var mtrEklLayer = L.layerGroup();
+
 		L.geoJson(railwayData, {
 			onEachFeature: onEachFeature,
 			pointToLayer: pointToLayer,
@@ -101,7 +117,27 @@
 				options.fillOpacity = 0.25;
 			}
 
-			return L.circleMarker(latlng, options);
+			var marker = L.circleMarker(latlng, options);
+
+			switch (feature.properties.line) {
+				case '觀塘綫': mtrKtlLayer.addLayer(marker); break;
+				case '荃灣綫': mtrTwlLayer.addLayer(marker); break;
+				case '港島綫': mtrIslLayer.addLayer(marker); break;
+				case '將軍澳綫': mtrTklLayer.addLayer(marker); break;
+				case '東涌綫': mtrTclLayer.addLayer(marker); break;
+				case '機場快綫': mtrAelLayer.addLayer(marker); break;
+				case '迪士尼綫': mtrDrlLayer.addLayer(marker); break;
+				case '南北綫': mtrNslLayer.addLayer(marker); break;
+				case '東西綫': mtrEwlLayer.addLayer(marker); break;
+				case '南港島綫（東段）': mtrSilELayer.addLayer(marker); break;
+				case '輕鐵': mtrLrLayer.addLayer(marker); break;
+				case '昂坪360': mtr360Layer.addLayer(marker); break;
+				case '北環綫': mtrNolLayer.addLayer(marker); break;
+				case '南港島綫（西段）': mtrSilWLayer.addLayer(marker); break;
+				case '東九龍綫': mtrEklLayer.addLayer(marker); break;
+			}
+				
+			return marker;
 		}
 
 		function onEachFeature(feature, layer) {
@@ -113,6 +149,26 @@
 		function filter(feature, layer) {
 			return true; // (feature.properties.company == '港鐵');
 		}
+
+		var overlayMaps = {
+			'觀塘綫': mtrKtlLayer,
+			'荃灣綫': mtrTwlLayer,
+			'港島綫': mtrIslLayer,
+			'將軍澳綫': mtrTklLayer,
+			'東涌綫': mtrTclLayer,
+			'機場快綫': mtrAelLayer,
+			'迪士尼綫': mtrDrlLayer,
+			'南北綫': mtrNslLayer,
+			'東西綫': mtrEwlLayer,
+			'南港島綫（東段）': mtrSilELayer,
+			'輕鐵': mtrLrLayer,
+			'昂坪360': mtr360Layer,
+			'北環綫': mtrNolLayer,
+			'南港島綫（西段）': mtrSilWLayer,
+			'東九龍綫': mtrEklLayer
+		}
+		L.control.layers(null, overlayMaps).addTo(map);
+
 	</script>
 </body>
-</html>s
+</html>
