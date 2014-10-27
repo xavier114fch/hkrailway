@@ -3,17 +3,19 @@
 <head>
 	<title>Hello World</title>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+	<link rel="stylesheet" href="css/leaflet.groupedlayercontrol.css" />
 	<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
-	<script src="data.json"></script>        
+    <script src="js/leaflet.groupedlayercontrol.js"></script>
+	<script src="js/data.json"></script>        
 	<style type="text/css">
 		body {
 			margin: 0;
 			padding: 0;
 		}
-		#map {
-			height: 100vh;
-			width: 100vw;
+		html, body, #map {
+			height: 100%;
 		}
 	</style>
 </head>
@@ -41,12 +43,16 @@
 		var mtrNolLayer = L.layerGroup();
 		var mtrSilWLayer = L.layerGroup();
 		var mtrEklLayer = L.layerGroup();
+		var tramLayer = L.layerGroup();
+		var peakTramLayer = L.layerGroup();
+		var oceanParkCableLayer = L.layerGroup();
+		var oceanParkExpLayer = L.layerGroup();
 
 		L.geoJson(railwayData, {
 			onEachFeature: onEachFeature,
 			pointToLayer: pointToLayer,
 			filter: filter
-		}).addTo(map);
+		});
 
 		function pointToLayer(feature, latlng) {
 			var options = {
@@ -119,30 +125,47 @@
 
 			var marker = L.circleMarker(latlng, options);
 
-			switch (feature.properties.line) {
-				case '觀塘綫': mtrKtlLayer.addLayer(marker); break;
-				case '荃灣綫': mtrTwlLayer.addLayer(marker); break;
-				case '港島綫': mtrIslLayer.addLayer(marker); break;
-				case '將軍澳綫': mtrTklLayer.addLayer(marker); break;
-				case '東涌綫': mtrTclLayer.addLayer(marker); break;
-				case '機場快綫': mtrAelLayer.addLayer(marker); break;
-				case '迪士尼綫': mtrDrlLayer.addLayer(marker); break;
-				case '南北綫': mtrNslLayer.addLayer(marker); break;
-				case '東西綫': mtrEwlLayer.addLayer(marker); break;
-				case '南港島綫（東段）': mtrSilELayer.addLayer(marker); break;
-				case '輕鐵': mtrLrLayer.addLayer(marker); break;
-				case '昂坪360': mtr360Layer.addLayer(marker); break;
-				case '北環綫': mtrNolLayer.addLayer(marker); break;
-				case '南港島綫（西段）': mtrSilWLayer.addLayer(marker); break;
-				case '東九龍綫': mtrEklLayer.addLayer(marker); break;
+			if (feature.properties.company == '港鐵') {
+				switch (feature.properties.line) {
+					case '觀塘綫': mtrKtlLayer.addLayer(marker); break;
+					case '荃灣綫': mtrTwlLayer.addLayer(marker); break;
+					case '港島綫': mtrIslLayer.addLayer(marker); break;
+					case '將軍澳綫': mtrTklLayer.addLayer(marker); break;
+					case '東涌綫': mtrTclLayer.addLayer(marker); break;
+					case '機場快綫': mtrAelLayer.addLayer(marker); break;
+					case '迪士尼綫': mtrDrlLayer.addLayer(marker); break;
+					case '南北綫': mtrNslLayer.addLayer(marker); break;
+					case '東西綫': mtrEwlLayer.addLayer(marker); break;
+					case '南港島綫（東段）': mtrSilELayer.addLayer(marker); break;
+					case '輕鐵': mtrLrLayer.addLayer(marker); break;
+					case '昂坪360': mtr360Layer.addLayer(marker); break;
+					case '北環綫': mtrNolLayer.addLayer(marker); break;
+					case '南港島綫（西段）': mtrSilWLayer.addLayer(marker); break;
+					case '東九龍綫': mtrEklLayer.addLayer(marker); break;
+				}
 			}
-				
+
+			if (feature.properties.company == '香港電車')
+				tramLayer.addLayer(marker);
+
+			if (feature.properties.company == '山頂纜車')
+				peakTramLayer.addLayer(marker);
+
+			if (feature.properties.company == '海洋公園') {
+				switch (feature.properties.line) {
+					case '登山纜車': oceanParkCableLayer.addLayer(marker); break;
+					case '海洋列車': oceanParkExpLayer.addLayer(marker); break;
+				}
+			}
+
 			return marker;
 		}
 
 		function onEachFeature(feature, layer) {
 			if (feature.properties && feature.properties.name) {
-				layer.bindPopup(feature.properties.name, {closeButton: false});
+				layer.bindPopup(feature.properties.name, {
+					closeButton: false
+				});
 			}
 		}
 
@@ -151,23 +174,36 @@
 		}
 
 		var overlayMaps = {
-			'觀塘綫': mtrKtlLayer,
-			'荃灣綫': mtrTwlLayer,
-			'港島綫': mtrIslLayer,
-			'將軍澳綫': mtrTklLayer,
-			'東涌綫': mtrTclLayer,
-			'機場快綫': mtrAelLayer,
-			'迪士尼綫': mtrDrlLayer,
-			'南北綫': mtrNslLayer,
-			'東西綫': mtrEwlLayer,
-			'南港島綫（東段）': mtrSilELayer,
-			'輕鐵': mtrLrLayer,
-			'昂坪360': mtr360Layer,
-			'北環綫': mtrNolLayer,
-			'南港島綫（西段）': mtrSilWLayer,
-			'東九龍綫': mtrEklLayer
-		}
-		L.control.layers(null, overlayMaps).addTo(map);
+			'港鐵': {
+				'觀塘綫': mtrKtlLayer,
+				'荃灣綫': mtrTwlLayer,
+				'港島綫': mtrIslLayer,
+				'東涌綫': mtrTclLayer,
+				'機場快綫': mtrAelLayer,
+				'將軍澳綫': mtrTklLayer,
+				'迪士尼綫': mtrDrlLayer,
+				'南北綫': mtrNslLayer,
+				'東西綫': mtrEwlLayer,
+				'南港島綫（東段）': mtrSilELayer,
+				'北環綫': mtrNolLayer,
+				'南港島綫（西段）': mtrSilWLayer,
+				'東九龍綫': mtrEklLayer,
+				'輕鐵': mtrLrLayer,
+				'昂坪360': mtr360Layer
+			},
+			'香港電車': {
+				'電車': tramLayer
+			},
+			'山頂纜車': {
+				'纜車': peakTramLayer
+			},
+			'海洋公園': {
+				'登山纜車': oceanParkCableLayer,
+				'海洋列車': oceanParkExpLayer
+			}
+		};
+
+		L.control.groupedLayers(null, overlayMaps).addTo(map);
 
 	</script>
 </body>
