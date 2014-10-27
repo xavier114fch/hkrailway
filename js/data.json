@@ -3759,6 +3759,7 @@ var railwayData = {
                 "name": "紅磡（九龍）",
                 "company": "國鐵",
                 "type": "車站",
+                "line": "城際列車",
                 "status": "運作中"
             }
         },
@@ -3776,6 +3777,7 @@ var railwayData = {
                 "name": "西九龍總站",
                 "company": "國鐵",
                 "type": "車站",
+                "line": "高鐵",
                 "status": "運作中"
             }
         },
@@ -3793,6 +3795,7 @@ var railwayData = {
                 "name": "石崗列車停放處／緊急救援站",
                 "company": "國鐵",
                 "type": "車廠",
+                "line": "高鐵",
                 "status": "運作中"
             }
         },

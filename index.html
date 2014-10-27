@@ -43,10 +43,14 @@
 		var mtrNolLayer = L.layerGroup();
 		var mtrSilWLayer = L.layerGroup();
 		var mtrEklLayer = L.layerGroup();
+		var chnRailLayer = L.layerGroup();
+		var chnHighLayer = L.layerGroup();
 		var tramLayer = L.layerGroup();
 		var peakTramLayer = L.layerGroup();
 		var oceanParkCableLayer = L.layerGroup();
 		var oceanParkExpLayer = L.layerGroup();
+		var disneyRailroadLayer = L.layerGroup();
+		var airportApmLayer = L.layerGroup();
 
 		L.geoJson(railwayData, {
 			onEachFeature: onEachFeature,
@@ -145,6 +149,13 @@
 				}
 			}
 
+			if (feature.properties.company == '國鐵') {
+				switch (feature.properties.line) {
+					case '城際列車': chnRailLayer.addLayer(marker); break;
+					case '高鐵': chnHighLayer.addLayer(marker); break;
+				}
+			}
+
 			if (feature.properties.company == '香港電車')
 				tramLayer.addLayer(marker);
 
@@ -157,6 +168,12 @@
 					case '海洋列車': oceanParkExpLayer.addLayer(marker); break;
 				}
 			}
+
+			if (feature.properties.company == '香港迪士尼樂園')
+				disneyRailroadLayer.addLayer(marker);
+
+			if (feature.properties.company == '香港國際機場旅客捷運系統')
+				airportApmLayer.addLayer(marker);
 
 			return marker;
 		}
@@ -191,15 +208,25 @@
 				'輕鐵': mtrLrLayer,
 				'昂坪360': mtr360Layer
 			},
+			'國鐵': {
+				'城際列車': chnRailLayer,
+				'高鐵': chnHighLayer
+			},
 			'香港電車': {
 				'電車': tramLayer
 			},
 			'山頂纜車': {
 				'纜車': peakTramLayer
 			},
-			'海洋公園': {
+			'香港海洋公園': {
 				'登山纜車': oceanParkCableLayer,
 				'海洋列車': oceanParkExpLayer
+			},
+			'香港迪士尼樂園': {
+				'香港迪士尼樂園鐵路': disneyRailroadLayer
+			},
+			'香港國際機場': {
+				'香港國際機場旅客捷運系統': airportApmLayer
 			}
 		};
 
