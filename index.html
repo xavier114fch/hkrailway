@@ -49,6 +49,8 @@
 		var mtrEklLayer = L.layerGroup();
 		var chnRailLayer = L.layerGroup();
 		var chnHighLayer = L.layerGroup();
+		var chnWelLayer = L.layerGroup();
+		var chnWelLocalLayer = L.layerGroup();
 		var tramLayer = L.layerGroup();
 		var peakTramLayer = L.layerGroup();
 		var oceanParkCableLayer = L.layerGroup();
@@ -157,6 +159,8 @@
 				switch (feature.properties.line) {
 					case '城際列車': chnRailLayer.addLayer(marker); break;
 					case '高鐵': chnHighLayer.addLayer(marker); break;
+					case '港深西部快速軌道': chnWelLayer.addLayer(marker); break;
+					case '港深西部快速軌道（本地支綫）': chnWelLocalLayer.addLayer(marker); break;
 				}
 			}
 
@@ -214,7 +218,9 @@
 			},
 			'國鐵': {
 				'城際列車': chnRailLayer,
-				'高鐵': chnHighLayer
+				'高鐵': chnHighLayer,
+				'港深西部快速軌道': chnWelLayer,
+				'港深西部快速軌道（本地支綫）': chnWelLocalLayer
 			},
 			'香港電車': {
 				'電車': tramLayer

@@ -7166,24 +7166,6 @@ var railwayData = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    113.9506706996846,
-                    22.31902882180728,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "港珠澳大橋香港口岸",
-                "company": "國鐵",
-                "type": "車站",
-                "line": "港深西部快速軌道",
-                "status": "擱置"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     113.9192299393457,
                     22.3252153743706,
                     0
