@@ -18,7 +18,7 @@
 			height: 100%;
 		}
 		.leaflet-control-layers-expanded {
-			height: 90vh;
+			max-height: 90vh;
 			overflow: auto;
 		}
 	</style>
@@ -47,6 +47,7 @@
 		var mtrNolLayer = L.layerGroup();
 		var mtrSilWLayer = L.layerGroup();
 		var mtrEklLayer = L.layerGroup();
+		var mtrTtlLayer = L.layerGroup();
 		var chnRailLayer = L.layerGroup();
 		var chnHighLayer = L.layerGroup();
 		var chnWelLayer = L.layerGroup();
@@ -57,6 +58,8 @@
 		var oceanParkExpLayer = L.layerGroup();
 		var disneyRailroadLayer = L.layerGroup();
 		var airportApmLayer = L.layerGroup();
+		var kaiTakMonorailLayer = L.layerGroup();
+		var wkcdEftsLayer = L.layerGroup();
 
 		L.geoJson(railwayData, {
 			onEachFeature: onEachFeature,
@@ -152,6 +155,7 @@
 					case '北環綫': mtrNolLayer.addLayer(marker); break;
 					case '南港島綫（西段）': mtrSilWLayer.addLayer(marker); break;
 					case '東九龍綫': mtrEklLayer.addLayer(marker); break;
+					case '荃灣—屯門綫': mtrTtlLayer.addLayer(marker); break;
 				}
 			}
 
@@ -183,6 +187,12 @@
 			if (feature.properties.company == '香港國際機場旅客捷運系統')
 				airportApmLayer.addLayer(marker);
 
+			if (feature.properties.company == '啟德環保連接系統')
+				kaiTakMonorailLayer.addLayer(marker);
+
+			if (feature.properties.company == '西九文化區EFTS')
+				wkcdEftsLayer.addLayer(marker);
+
 			return marker;
 		}
 
@@ -195,7 +205,8 @@
 		}
 
 		function filter(feature, layer) {
-			return true; // (feature.properties.company == '港鐵');
+			// return true; 
+			return (feature.properties.status != '擱置');
 		}
 
 		var overlayMaps = {
@@ -213,14 +224,15 @@
 				'北環綫': mtrNolLayer,
 				'南港島綫（西段）': mtrSilWLayer,
 				'東九龍綫': mtrEklLayer,
+				// '荃灣—屯門綫': mtrTtlLayer,
 				'輕鐵': mtrLrLayer,
 				'昂坪360': mtr360Layer
 			},
 			'國鐵': {
 				'城際列車': chnRailLayer,
 				'高鐵': chnHighLayer,
-				'港深西部快速軌道': chnWelLayer,
-				'港深西部快速軌道（本地支綫）': chnWelLocalLayer
+				// '港深西部快速軌道': chnWelLayer,
+				// '港深西部快速軌道（本地支綫）': chnWelLocalLayer
 			},
 			'香港電車': {
 				'電車': tramLayer
@@ -237,6 +249,12 @@
 			},
 			'香港國際機場': {
 				'香港國際機場旅客捷運系統': airportApmLayer
+			},
+			'啟德環保連接系統': {
+				'啟德環保連接系統': kaiTakMonorailLayer
+			// },
+			// '西九龍文化藝術區': {
+			// 	'西九文化區EFTS': wkcdEftsLayer
 			}
 		};
 
