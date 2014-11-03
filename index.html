@@ -21,6 +21,18 @@
 			max-height: 90vh;
 			overflow: auto;
 		}
+		.title {
+			display: block;
+			margin: 0;
+			border: 1px solid rgba(0, 0, 0, 0.4);
+			border-radius: 4px;
+			padding: 5px 10px;
+			background-color: rgba(255, 255, 255, 1);
+			box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.65);
+			color: rgba(0, 0, 0, 0.65);
+			font-weight: bold;
+			font-size: 1.5em;
+		}
 	</style>
 </head>
 <body>
@@ -31,6 +43,20 @@
 			attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
 			maxZoom: 15
 		}).addTo(map);
+
+		var title;
+		title = L.Control.extend({
+			options: {
+				position: 'bottomleft'
+			},
+			onAdd: function(map) {
+				this._div = L.DomUtil.create('div', 'title');
+				this._div.innerHTML = '香港鐵路車站2031';				
+				return this._div;
+			}
+		});
+
+		map.addControl(new title());
 
 		var mtrKtlLayer = L.layerGroup();
 		var mtrTwlLayer = L.layerGroup();
